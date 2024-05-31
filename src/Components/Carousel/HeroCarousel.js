@@ -24,8 +24,8 @@ const HeroCarousel = () => {
                         <div>
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full" />
                         </div>
-                        <div className="absolute top-[300px] flex flex-col items-center justify-center p-10">
-                            <h1 className="text-white text-7xl font-[Inter]">Pearlshi Events</h1>
+                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-10">
+                            <h1 className="text-white text-7xl font-Title">Pearlshi Events</h1>
                             <p className="text-xl text-white">Your premier events and catering service provider</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const HeroCarousel = () => {
                         <div className="h-[500px]">
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full" />
                         </div>
-                        <div className="absolute flex flex-col items-center justify-center p-10">
+                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  items-center p-10">
                             <h1 className="text-white text-7xl font-[Inter]">Pearlshi Events</h1>
                             <p className="text-xl text-white">Your premier events and catering service provider</p>
                         </div>

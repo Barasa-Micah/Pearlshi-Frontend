@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'About': "Imperial Script"
+        'About': "Imperial Script",
+        'Title': "Yeseva One"
       },
       colors: {
         wedding: {

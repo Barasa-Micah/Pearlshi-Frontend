@@ -11,7 +11,7 @@ const MenuItem = ({ label, children }) => {
     return (
       <li className="relative">
         <button 
-          className="w-full text-left p-2 hover:text-white rounded-md transition-colors duration-200"
+          className="w-full text-left p-2 rounded-md transition-colors duration-200"
           onClick={toggleSubmenu}
         >
           {label}
@@ -34,12 +34,15 @@ const NavSm = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const closemenu = () => {
+        setIsOpen(false);
+    }
 
 
     return (
         <>
-            <nav className="bg-white fixed top-0 z-50 w-full">
-                <div className="h-[80px] w-full flex justify-between p-5">
+            <nav className="bg-white fixed top-0 z-50  w-full">
+                <div className="h-[80px]  flex justify-between">
                     <div className=" my-auto">
                         <Link to="/">
                             <img src={require('../../Assets/IMG-20240515-WA0002.jpg')} alt="Logo" className="w-[60px] max-h-[60px]" />
@@ -51,22 +54,22 @@ const NavSm = () => {
                 </div>
                 <div className="relative">
                     <div
-                        className={`absolute top-0 right-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[-100%] ' : 'right-[100%]'}`}
+                        className={`absolute top-0 left-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[100%]  ' : 'left-[-100%]'}`}
                     >
                         <ul className="flex flex-col p-2 space-y-2">
-                                <Link to="/"><MenuItem label="Home" /></Link>
-                                <Link to="/aboutUs"><MenuItem label="About Us" /></Link>
+                                <Link to="/" onClick={closemenu}><MenuItem label="Home" /></Link>
+                                <Link to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></Link>
                                 <MenuItem label="Our Services">
-                                    <Link to="/sermon"><MenuItem label="Decorations" /></Link>
-                                    <Link to="/"><MenuItem label="Tensy & Chairs for Hire" /></Link>
-                                    <Link to="/"><MenuItem label="Table Set Up" /></Link>
-                                    <Link to="/"><MenuItem label="Floral Requisition" /></Link>
-                                    <Link to="/"><MenuItem label="Office Delivery" /></Link>
-                                    <Link to="/"><MenuItem label="Event Planning & Event Management" /></Link>
-                                    <Link to="/"><MenuItem label="Backdrops & Garlands for Hire" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Decorations" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Table Set Up" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Floral Requisition" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Office Delivery" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></Link>
                                 </MenuItem>
-                                <Link to=""><MenuItem label="Gallery" /></Link>
-                                <Link to="/"><MenuItem label="Contact Us" /></Link>
+                                <Link to="" onClick={closemenu}><MenuItem label="Gallery" /></Link>
+                                <Link to="/" onClick={closemenu}><MenuItem label="Contact Us" /></Link>
                             </ul>
                     </div>
                 </div>
@@ -80,6 +83,9 @@ const NavMd = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const closemenu = () => {
+        setIsOpen(false);
+    }
 
     return (
         <>
@@ -94,22 +100,22 @@ const NavMd = () => {
                 </div>
                 <div className="relative">
                     <div
-                        className={`absolute top-0 right-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[-100%] ' : 'right-[100%]'}`}
+                        className={`absolute top-0 left-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[100%]  ' : 'left-[-100%]'}`}
                     >
                         <ul className="flex flex-col p-2 space-y-2">
-                                <Link to="/"><MenuItem label="Home" /></Link>
-                                <Link to="/aboutUs"><MenuItem label="About Us" /></Link>
+                                <Link to="/" onClick={closemenu}><MenuItem label="Home" /></Link>
+                                <Link to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></Link>
                                 <MenuItem label="Our Services">
-                                    <Link to="/sermon"><MenuItem label="Decorations" /></Link>
-                                    <Link to="/"><MenuItem label="Tensy & Chairs for Hire" /></Link>
-                                    <Link to="/"><MenuItem label="Table Set Up" /></Link>
-                                    <Link to="/"><MenuItem label="Floral Requisition" /></Link>
-                                    <Link to="/"><MenuItem label="Office Delivery" /></Link>
-                                    <Link to="/"><MenuItem label="Event Planning & Event Management" /></Link>
-                                    <Link to="/"><MenuItem label="Backdrops & Garlands for Hire" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Decorations" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Table Set Up" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Floral Requisition" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Office Delivery" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></Link>
+                                    <Link to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></Link>
                                 </MenuItem>
-                                <Link to=""><MenuItem label="Gallery" /></Link>
-                                <Link to="/"><MenuItem label="Contact Us" /></Link>
+                                <Link to="" onClick={closemenu}><MenuItem label="Gallery" /></Link>
+                                <Link to="/" onClick={closemenu}><MenuItem label="Contact Us" /></Link>
                             </ul>
                     </div>
                 </div>
@@ -177,11 +183,11 @@ const NavLg = () => {
                                 </tr>
                             </table>
                         </div>
-                        <button className="bg-[#00ADEF] text-white text-lg font-bold px-4 py-2 hover:bg-white hover:text-[#00ADEF] transition-colors duration-1000">Book Now</button>
+                        <button className="bg-gradient-to-r from-header-200 via-header-600 hover:from-header-600 hover:via-white hover:to-header-600 p-5 text-white text-lg font-bold px-4 py-2 transition-all duration-2000">Book Now</button>
                     </div>
                     <div className="mt-3">
                         <ul className="inline-flex justify-center text-xl space-x-8 font-semibold gap-4">
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/" activeClassName="text-red">Home</Link></li>
                             <li><Link to="/aboutUs">About Us</Link></li>
                             <li>
                                 <div className="relative text-left inline-block group">
@@ -189,11 +195,14 @@ const NavLg = () => {
                                         <button className="inline-flex justify-center w-full text-center">Our Services</button>
                                     </div>
                                     <div className="hidden bg-white absolute origin-top top-[29px] group-hover:block transition-all duration-300">
-                                        <div className="py-5 px-4 w-[150px]" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                                            <Link to="" className="block text-md" role="menuitem">Weddings</Link>
-                                            <Link to="" className="block mb-3" role="menuitem">Weddings</Link>
-                                            <Link to="" className="block mb-3" role="menuitem">Weddings</Link>
-                                            <Link to="" className="block mb-3" role="menuitem">Weddings</Link>
+                                        <div className="py-5 px-4 w-[200px] txt-sm font-light" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                            <Link to="" className="text-md border-b-2 border-e-red-50 font-light block" role="menuitem">Decorations</Link>
+                                            <Link to="" className="block " role="menuitem">Tents & Chairs for Hire</Link>
+                                            <Link to="" className="block" role="menuitem">Table Set Up</Link>
+                                            <Link to="" className="block " role="menuitem">Floral Requisition</Link>
+                                            <Link to="" className="block " role="menuitem">Office Delivery</Link>
+                                            <Link to="" className=" block" role="menuitem">Event Planning & Event Management</Link>
+                                            <Link to="" className="block" role="menuitem">Backdrops & Garlands for Hire</Link>
                                         </div>
                                     </div>
                                 </div>
