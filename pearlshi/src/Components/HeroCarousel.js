@@ -1,10 +1,10 @@
 import React, { useState} from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import {RxDotFilled} from 'react-icons/rx';
-import table1 from "../Assets/table1.png";
-import table2 from "../Assets/table2.png";
-import table4 from "../Assets/table4.png";
-import buffet from "../Assets/buffet.png";
+import table1 from "../Assets/Home/table1.png";
+import table2 from "../Assets/Home/table2.png";
+import table4 from "../Assets/Home/table4.png";
+import buffet from "../Assets/Home/buffet.png";
 
 
 
@@ -130,36 +130,6 @@ const HeroCarousel = () => {
   }
 
 
-// const HeroCarousel = () => {
-//     const settings = {
-//         dots: true,
-//         fade: true,
-//         infinite: true,
-//         speed: 500,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         waitForAnimate: false
-//     };
-//     return (
-//         <div className="slider-container">
-//             <Slider {...settings}>
-//         <div>
-//           <img src={baseUrl + "../"} />
-//         </div>
-//         <div>
-//           <img src={baseUrl + "/abstract02.jpg"} />
-//         </div>
-//         <div>
-//           <img src={baseUrl + "/abstract03.jpg"} />
-//         </div>
-//         <div>
-//           <img src={baseUrl + "/abstract04.jpg"} />
-//         </div>
-//       </Slider>
-          
-//         </div>
-//       );
 
-// }
 
 export default HeroCarousel;

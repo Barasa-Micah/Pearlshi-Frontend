@@ -4,7 +4,7 @@ import GalleryNavigation from '../Components/GalleryNavigation';
 import GalleryMain from '../Components/GalleryMain';
 
 
-const Gallery = () => {
+const Weddings = () => {
     return (
         <>
         <GalleryHero />
@@ -15,4 +15,4 @@ const Gallery = () => {
 
 };
 
-export default Gallery;
+export default Weddings;
