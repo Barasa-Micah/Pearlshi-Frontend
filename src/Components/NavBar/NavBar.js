@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { FaSquareXTwitter, FaSquareInstagram  } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
+
+
+
 
 const MenuItem = ({ label, children }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -44,9 +50,9 @@ const NavSm = () => {
             <nav className="bg-white fixed top-0 z-50  w-full">
                 <div className="h-[80px]  flex justify-between">
                     <div className=" my-auto">
-                        <Link to="/">
+                        <NavLink to="/">
                             <img src={require('../../Assets/IMG-20240515-WA0002.jpg')} alt="Logo" className="w-[60px] max-h-[60px]" />
-                        </Link>
+                        </NavLink>
                     </div>
                     <div className="text-5xl my-auto hover:cursor-pointer z-50" onClick={toggleMenu}>
                         <ion-icon name={`${isOpen ? "close" : "menu"}`}></ion-icon>
@@ -57,19 +63,19 @@ const NavSm = () => {
                         className={`absolute top-0 left-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[100%]  ' : 'left-[-100%]'}`}
                     >
                         <ul className="flex flex-col p-2 space-y-2">
-                                <Link to="/" onClick={closemenu}><MenuItem label="Home" /></Link>
-                                <Link to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></Link>
+                                <NavLink to="/" onClick={closemenu}><MenuItem label="Home" /></NavLink>
+                                <NavLink to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></NavLink>
                                 <MenuItem label="Our Services">
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Decorations" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Table Set Up" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Floral Requisition" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Office Delivery" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></Link>
+                                    <NavLink to="/decarations" onClick={closemenu}><MenuItem label="Decorations" /></NavLink>
+                                    <NavLink to="/tentHiring" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></NavLink>
+                                    <NavLink to="/tableSetUp" onClick={closemenu}><MenuItem label="Table Set Up" /></NavLink>
+                                    <NavLink to="/floralRequisition" onClick={closemenu}><MenuItem label="Floral Requisition" /></NavLink>
+                                    <NavLink to="/officeDelivery" onClick={closemenu}><MenuItem label="Office Delivery" /></NavLink>
+                                    <NavLink to="/eventPlanning" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></NavLink>
+                                    <NavLink to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></NavLink>
                                 </MenuItem>
-                                <Link to="" onClick={closemenu}><MenuItem label="Gallery" /></Link>
-                                <Link to="/" onClick={closemenu}><MenuItem label="Contact Us" /></Link>
+                                <NavLink to="" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
+                                <NavLink to="/connect" onClick={closemenu}><MenuItem label="Contact Us" /></NavLink>
                             </ul>
                     </div>
                 </div>
@@ -103,19 +109,19 @@ const NavMd = () => {
                         className={`absolute top-0 left-0 w-full h-screen bg-white text-black z-50 text-lg shadow-lg transition-all duration-500 overflow-hidden ${isOpen ? 'right-[100%]  ' : 'left-[-100%]'}`}
                     >
                         <ul className="flex flex-col p-2 space-y-2">
-                                <Link to="/" onClick={closemenu}><MenuItem label="Home" /></Link>
-                                <Link to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></Link>
+                                <NavLink to="/" onClick={closemenu}><MenuItem label="Home" /></NavLink>
+                                <NavLink to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></NavLink>
                                 <MenuItem label="Our Services">
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Decorations" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Table Set Up" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Floral Requisition" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Office Delivery" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></Link>
-                                    <Link to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></Link>
+                                    <NavLink to="/decorations" onClick={closemenu}><MenuItem label="Decorations" /></NavLink>
+                                    <NavLink to="/tentHiring" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></NavLink>
+                                    <NavLink to="/tableSetUp" onClick={closemenu}><MenuItem label="Table Set Up" /></NavLink>
+                                    <NavLink to="/floralRequisition" onClick={closemenu}><MenuItem label="Floral Requisition" /></NavLink>
+                                    <NavLink to="/officeDelivery" onClick={closemenu}><MenuItem label="Office Delivery" /></NavLink>
+                                    <NavLink to="/eventPlanning" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></NavLink>
+                                    <NavLink to="/" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></NavLink>
                                 </MenuItem>
-                                <Link to="" onClick={closemenu}><MenuItem label="Gallery" /></Link>
-                                <Link to="/" onClick={closemenu}><MenuItem label="Contact Us" /></Link>
+                                <NavLink to="" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
+                                <NavLink to="/connect" onClick={closemenu}><MenuItem label="Contact Us" /></NavLink>
                             </ul>
                     </div>
                 </div>
@@ -153,62 +159,88 @@ const NavLg = () => {
                             <table className="border-collapse border my-auto w-[200px] h-[50px] mr-3 ">
                                 <tr className="my-auto">
                                     <th className="border hover:bg-white transition-colors duration-300">
-                                        <span className="text-3xl align-middle my-auto text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-colors duration-300">
+                                        <span className="text-3xl flex justify-center items-center text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-all duration-300">
                                             <a href="https://www.instagram.com/the_pearlshi_caterers?igsh=ZTRqdTRsZHNvbmtw" target="_blank">
-                                                <ion-icon name="logo-instagram"></ion-icon>
+                                                <FaSquareInstagram  />
                                             </a>
                                         </span>
                                     </th>
                                     <th className="border hover:bg-white transition-colors duration-300">
-                                        <span className="text-3xl align-middle my-auto text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-colors duration-300">
+                                        <span className="text-3xl flex justify-center items-center text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-all duration-300">
                                             <a href="https://www.facebook.com/profile.php?id=100086976352392&mibextid=ZbWKwL" target="_blank">
-                                                <ion-icon name="logo-facebook"></ion-icon>
+                                                <FaFacebookSquare />
                                             </a>
                                         </span>
                                     </th>
                                     <th className="border hover:bg-white transition-colors duration-300">
-                                        <span className="text-3xl align-middle my-auto text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-colors duration-300">
-                                            <a href="">
-                                                <ion-icon name="logo-whatsapp"></ion-icon>
+                                        <span className="text-3xl text-gray-500 flex justify-center items-center hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-all duration-300">
+                                            <a href="https://x.com/pearlshiCaterer?t=eEyZsG57PhY5sUmpq32pDg&s=09" target="_blank">
+                                                <FaSquareXTwitter />
                                             </a>
                                         </span>
                                     </th>
                                     <th className="hover:bg-white transition-colors duration-300">
-                                        <span className="text-3xl align-middle my-auto text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-colors duration-300">
+                                        <span className="text-4xl flex justify-center items-center text-gray-500 hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-all duration-300">
                                             <a href="https://www.tiktok.com/@pearlshi_caterers?_t=8mMyz7LWFGv&_r=1" target="_blank">
-                                                <ion-icon name="logo-tiktok"></ion-icon>
+                                                <AiFillTikTok />
                                             </a>
                                         </span>
                                     </th>
                                 </tr>
                             </table>
                         </div>
-                        <button className="bg-gradient-to-r from-header-200 via-header-600 hover:from-header-600 hover:via-white hover:to-header-600 p-5 text-white text-lg font-bold px-4 py-2 transition-all duration-2000">Book Now</button>
+                        <Link to="/booking"><button className="bg-gradient-to-r from-header-200 via-header-600 hover:from-header-600  hover:to-header-600  text-white text-lg font-bold px-4 py-2 transition-colors duration-300">Book Now</button></Link>
                     </div>
                     <div className="mt-3">
                         <ul className="inline-flex justify-center text-xl space-x-8 font-semibold gap-4">
-                            <li><Link to="/" activeClassName="text-red">Home</Link></li>
-                            <li><Link to="/aboutUs">About Us</Link></li>
+                            <li className="py-[11px]">
+                                <NavLink to="/" 
+                                    className={({ isActive }) => [
+                                        "text-black", isActive ? "font-bold text-red-700" : null
+                                    ].filter(Boolean).join("")}
+                                    >Home
+                                </NavLink>
+                            </li>
+                            <li className="py-[11px]">
+                                <NavLink to="/aboutUs"
+                                    className={({ isActive }) => [
+                                        "text-black", isActive ? "font-bold text-red-700" : null
+                                    ]}
+                                    >About Us
+                                </NavLink>
+                            </li>
                             <li>
-                                <div className="relative text-left inline-block group">
+                                <div className="relative text-left inline-block py-[11px] group">
                                     <div>
                                         <button className="inline-flex justify-center w-full text-center">Our Services</button>
                                     </div>
-                                    <div className="hidden bg-white absolute origin-top top-[29px] group-hover:block transition-all duration-300">
-                                        <div className="py-5 px-4 w-[200px] txt-sm font-light" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                                            <Link to="" className="text-md border-b-2 border-e-red-50 font-light block" role="menuitem">Decorations</Link>
-                                            <Link to="" className="block " role="menuitem">Tents & Chairs for Hire</Link>
-                                            <Link to="" className="block" role="menuitem">Table Set Up</Link>
-                                            <Link to="" className="block " role="menuitem">Floral Requisition</Link>
-                                            <Link to="" className="block " role="menuitem">Office Delivery</Link>
-                                            <Link to="" className=" block" role="menuitem">Event Planning & Event Management</Link>
-                                            <Link to="" className="block" role="menuitem">Backdrops & Garlands for Hire</Link>
+                                    <div className="hidden bg-[#F5F2FB] absolute origin-top top-[50px] -left-[28%] group-hover:block transition-all duration-300">
+                                        <div className="space-y-2 py- w-[250px] font-light text-md font-['Inter']" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                            <NavLink to="/decorations" className="block hover:bg-header-500 hover:text-white transition-colors duration-700 px-2 py-2" role="menuitem">Decorations</NavLink>
+                                            <NavLink to="/tentHiring" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Tents & Chairs for Hire</NavLink>
+                                            <NavLink to="/tableSetUp" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Table Set Up</NavLink>
+                                            <NavLink to="/floralRequisition" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Floral Requisition</NavLink>
+                                            <NavLink to="/officeDelivery" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Office Delivery</NavLink>
+                                            <NavLink to="/eventPlanning" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Event Planning & Management</NavLink>
+                                            <NavLink to="" className="block px-2 hover:bg-header-500 hover:text-white transition-colors duration-700 py-2" role="menuitem">Backdrops & Garlands for Hire</NavLink>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li><Link to="">Gallery</Link></li>
-                            <li><Link to="/connect">Contact Us</Link></li>
+                            <li className="py-[11px]">
+                                <NavLink to=""
+                                    className={({ isActive }) => [
+                                        "text-black", isActive ? "text-red-700 font-bold" : null
+                                    ].filter(Boolean).join("")}
+                                >Gallery</NavLink>
+                            </li>
+                            <li className="py-[11px]">
+                                <NavLink to="/connect"
+                                    className={({ isActive }) => [
+                                        "text-black", isActive ? "text-red-700 font-bold" : null
+                                    ].filter(Boolean).join("")}
+                                >Contact Us</NavLink>
+                            </li>
                         </ul>
                     </div>
                 </nav>

@@ -14,6 +14,17 @@ import HomePage from './Pages/Home';
 import ContactPage from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 
+//Service Pages
+import Decorations from './Pages/ServicePages/Decorations';
+import FloralRequisition from './Pages/ServicePages/FloralRequisition';
+import TentHiring from './Pages/ServicePages/TentHiring';
+import EventPlanning from './Pages/ServicePages/EventPlanning';
+import OfficeDelivery from './Pages/ServicePages/OfficeDelivery';
+import TableSetUp from './Pages/ServicePages/TableSetUp';
+
+import Booking from './Pages/Booking';
+import SignUp from './Components/SignUp/SignUp';
+
 
 function App() {
   return (
@@ -23,10 +34,20 @@ function App() {
           <NavBar />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/aboutUs" element={<AboutUs />} />
-            <Route exact path="/connect" element={<ContactPage />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
+            <Route path="/connect" element={<ContactPage />} />
+
+            <Route path="/decorations" element={<Decorations />} />
+            <Route path="/floralRequisition" element={<FloralRequisition />} />
+            <Route path="/tentHiring" element={<TentHiring />} />
+            <Route path="/eventPlanning" element={<EventPlanning />} />
+            <Route path="/officeDelivery" element={<OfficeDelivery />} />
+            <Route path="/tableSetUp" element={<TableSetUp />} />
+
+            <Route path="/booking" element={<Booking />} />
           </Routes>
           <ScrollToTop />
+          <SignUp />
           <Footer />
         </Router>
       </HelmetProvider>

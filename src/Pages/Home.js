@@ -86,52 +86,64 @@ const HomePage = () => {
                 <h1 className="text-center text-white text-xl md:text-3xl lg:text-4xl font-['Roboto'] my-10">WHAT WE DO</h1>
                 <div className="mx-auto w-[95%] lg:w-[70%] flex flex-wrap gap-2 space-x-5 mt-5 justify-center items-center">
                     <div className="relative group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="h-[400px] max-w-[300px]">
-                            <img src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} alt="" className="w-full h-full" /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block text-center pt-4 text-4xl font-semibold font-About">Decorations</h1>
-                        </div>
+                        <Link to="/decorations">
+                            <div className="h-[400px] max-w-[300px]">
+                                <img src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} alt="" className="w-full h-full" /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block text-center pt-4 text-4xl font-semibold font-About">Decorations</h1>
+                            </div>
+                        </Link>
                     </div>
                     <div className="relative mt-2 group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="h-[400px] max-w-[270px]">
-                            <img src={require('../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt="" className="w-full h-full" /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Table Set Up</h1>
-                        </div>
+                        <Link to="tableSetUp">
+                            <div className="h-[400px] max-w-[270px]">
+                                <img src={require('../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt="" className="w-full h-full" /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Table Set Up</h1>
+                            </div>
+                        </Link>
                     </div>
                     <div className="relative group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="">
-                            <img src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} alt="" className="h-[400px] w-[270px]" /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Floral Requisition</h1>
-                        </div>
+                        <Link to="floralRequisition">
+                            <div className="">
+                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} alt="" className="h-[400px] w-[270px]" /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Floral Requisition</h1>
+                            </div>
+                        </Link>
                     </div>
                     <div className="relative group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="w-300px">
-                            <img src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} alt="" className="h-[400px] w-[270px]" /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Office Delivery</h1>
-                        </div>
+                        <Link to="officeDelivery">
+                            <div className="w-300px">
+                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} alt="" className="h-[400px] w-[270px]" /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Office Delivery</h1>
+                            </div>
+                        </Link>
                     </div>
                     <div className="relative group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="">
-                            <img src={require('../Assets/SlideShow/TablesetUp.jpg')} alt="" className="h-[400px] w-[270px] " /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Tents & Chair Hiring</h1>
-                        </div>
+                        <Link to="/tentHiring">
+                            <div className="">
+                                <img src={require('../Assets/SlideShow/TablesetUp.jpg')} alt="" className="h-[400px] w-[270px] " /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Tents & Chair Hiring</h1>
+                            </div>
+                        </Link>
                     </div>
                     <div className="relative group hover:cursor-pointer shadow-black shadow-2xl">
-                        <div className="">
-                            <img src={require('../Assets/SlideShow/20240518094352_IMG_0373 (2).jpg')} alt="" className="h-[400px] w-[270px]" /> 
-                        </div>
-                        <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                            <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Event Planning & Management</h1>
-                        </div>
+                        <Link to="eventPlanning">
+                            <div className="">
+                                <img src={require('../Assets/SlideShow/20240518094352_IMG_0373 (2).jpg')} alt="" className="h-[400px] w-[270px]" /> 
+                            </div>
+                            <div className="absolute bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Event Planning & Management</h1>
+                            </div>
+                        </Link>
                     </div>
                     
                 </div>
@@ -208,22 +220,6 @@ const HomePage = () => {
                     <div className="flex-1 w-[2%]">
                         <CoreCarousel />
                     </div>
-                </div>
-            </section>
-
-            {/* Sign Up */}
-            <section 
-                className="bg-center  bg-cover bg-no-repeat bg-fixed w-full lg:h-[350px] p-3"
-                style={{backgroundImage: "url(https://images.unsplash.com/photo-1471138406156-7a89e687a062?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}
-            >
-                <div>
-                    <h1 className="font-About text-white text-4xl md:text-6xl lg:text-7xl text-center py-5">Join Our Community</h1>
-                    <p className="text-[#D9D9D9] text-center text-md md:text-lg mt-3">Sign up to our newsletter to be the first to know of our various offers and discounts.</p>
-                    <form method="" className="lg:space-x-[50px] my-9 w-[90%] lg:w-[70%] mx-auto">
-                        <input type="text" name="Full Name" placeholder="Full Name" className="bg-[#D9D9D9] bg-opacity-[50%] mb-2 md:mr-3 lg:mr-0 outline-none py-3 px-4 w-[300px] rounded-md text-white"/>
-                        <input type="email" name="Email" placeholder="Email Address" className="bg-[#D9D9D9] bg-opacity-[50%] mb-2 outline-none py-3 px-4 w-[300px] rounded-md text-white"/>
-                        <input type="submit" name="submit" value="Sign Up" className="bg-[#C61313] px-7 py-2 text-lg  text-white font-semibold rounded-full hover:cursor-pointer"/>
-                    </form>
                 </div>
             </section>
         </>

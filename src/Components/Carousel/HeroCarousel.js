@@ -18,33 +18,33 @@ const HeroCarousel = () => {
 
     return (
         <>
-            <div className="hidden lg:block">
+            <div className="hidden lg:block w-full">
                 <Slider {...settingsLg}>
-                    <div className="h-screen relative w-full">
+                    <div className="h-screen relative ">
                         <div>
-                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full" />
+                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-10">
-                            <h1 className="text-white text-7xl font-Title">Pearlshi Events</h1>
+                        <div className="absolute bottom-[30%] left-[10%]">
+                            <h1 className="text-white text-7xl font-['Inter']">Pearlshi Caterers</h1>
                             <p className="text-xl text-white">Your premier events and catering service provider</p>
                         </div>
                     </div>
-                    <div className="h-screen relative w-full">
+                    <div className="h-screen relative ">
                         <div>
-                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="" className="w-full max-h-screen" />
+                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="" className="w-full object-cover" />
                         </div>
-                        <div className="absolute top-[300px] left-[300px] p-10 font-[Inter]">
-                            <h1 className="text-white text-6xl font-[Inter]">Pearlshi Events</h1>
+                        <div className="absolute top-1/2 left-[10%] font-['Inter'] w-[600px]">
+                            <h1 className="text-white text-7xl font-[Inter]">Event Planning & Event Management</h1>
                             <p className="text-xl text-white">Your premier events and catering service provider</p>
                             <button className="px-4 py-3 text-lg">Learn More</button>
                         </div>
                     </div>
-                    <div className="h-screen relative w-full">
+                    <div className="h-screen relative ">
                         
-                            <img src={require('../../Assets/SlideShow/20240518093945_IMG_0363.jpg')} alt="" className="w-full max-h-screen" />
+                            <img src={require('../../Assets/SlideShow/20240518121639_IMG_0493.jpg')} alt="" className="w-full max-h-screen object-cover" />
                         
-                        <div className="absolute top-[300px] p-10">
-                            <h1 className="text-white text-8xl font-[Inter]">Pearlshi Events</h1>
+                        <div className="absolute bottom-[20%] left-[20%] transform ">
+                            <h1 className="text-white text-6xl font-[Inter]">Pearlshi Events</h1>
                             <p className="text-xl text-white">Your premier events and catering service provider</p>
                         </div>
                     </div>
