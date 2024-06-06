@@ -33,15 +33,13 @@ const Booking = () => {
               </div>
             </div>
           </div>
+
+
           <div className='basis-[55%] bg-white p-3'>
-            <form method='' action='' className=''>
+            <form method='POST' action='' className=''>
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
-                  <label>First Name</label>
-                  <input type='text' name='booker_name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
-                </div>
-                <div className='text-md font-["Inter"]'>
-                  <label>Last Name</label>
+                  <label>Full Name</label>
                   <input type='text' name='booker_name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
@@ -55,35 +53,38 @@ const Booking = () => {
               </div>
               <label id='package'>Choose a Package</label>
               <select id="package" className='w-[300px p-3]'>
-                <option value="Event Planning" className='w-[300px p-3]'>Event Planning</option>
+                <option value="event_name" className='w-[300px p-3]'>Event Planning</option>
                 <option value="Caterers">Caterers</option>
                 <option value="Both">Both</option>
               </select>
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
                   <label>Type of Event</label>
-                  <input type='text' name='booker_email' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='text' name='event_name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Number of Guests</label>
-                  <input type='number' name='booker_email' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='number' name='guests' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Date of Event</label>
-                  <input type='date' name='date' min={getTodayDate()} value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='date' name='event_date' min={getTodayDate()} value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Time of Event</label>
-                  <input type='time' name='booker_email' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='time' name='event_time' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Location of Event</label>
-                  <input type='email' name='booker_email' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='text' name='location' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
+                <label>Description</label>
+                <textarea type="text" name='description' rows="6" className='bg-[#F5F2FB] block w-[400px]'/>
               </div>
               <input type='submit' value="Book Now" className='w-[70%] flex flex-col items-center justify-center my-5 py-3 bg-[#135A70] text-white text-xl  font-["Inter"] hover:cursor-pointer' />
             </form>
           </div>
+  
         </section>
       </body>
     </>

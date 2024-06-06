@@ -47,7 +47,7 @@ const EventPlanning = () => {
                             <FaPhoneAlt />
                         </span>
                         <div className='flex gap-2'>
-                            <p className='text-["Inter"]'>0715615609 /</p>
+                            <p className='text-["Inter"]'></p>
                             <p className='text-["Inter"]'>0759108174</p>
                         </div>
                     </div>
