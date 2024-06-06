@@ -16,11 +16,12 @@ const Decorations = () => {
           <body className='bg-[#FFFFFF] mt-[80px] md:mt-0'>
             <section className='w-full relative'>
                 <div className='h-full lg:h-screen'>
-                    <img src={require('../../Assets/SlideShow/20240518121639_IMG_0493.jpg')} alt='' className='object-cover w-full h-full' />
+                    <img src={require('../../Assets/SlideShow/20240518104820_IMG_0416.jpg')} alt='' className='object-cover w-full h-full' />
                 </div>
                 <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
-                    <div className='absolute bottom-[30%] md:bottom-[10%] left-[5%]'>
+                    <div className='absolute bottom-[10%] md:bottom-[24%] left-[5%]'>
                         <h1 className='text-white text-4xl md:text-6xl lg:text-8xl font-semibold text-left font-["Inter"]'>Decorations</h1>
+                        <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using </p>
                     </div>
                 </div>
             </section>
@@ -77,7 +78,7 @@ const Decorations = () => {
                     <h1 className='text-3xl font-semibold font-["Inter"]'>Decorations</h1>
                     <p className='font-["Inter"] text-md pt-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                     <p className='font-["Inter"] text-md pt-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <div className='pt-7 md:flex space-x-2 justify-center items-center'>
+                    <div className='pt-7 md:flex gap-2 space-y-2 md:space-y-0 justify-center items-center'>
                         <div className='w-[350px] h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>

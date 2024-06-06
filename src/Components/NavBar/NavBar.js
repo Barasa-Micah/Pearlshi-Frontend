@@ -66,7 +66,7 @@ const NavSm = () => {
                                 <NavLink to="/" onClick={closemenu}><MenuItem label="Home" /></NavLink>
                                 <NavLink to="/aboutUs" onClick={closemenu}><MenuItem label="About Us" /></NavLink>
                                 <MenuItem label="Our Services">
-                                    <NavLink to="/decarations" onClick={closemenu}><MenuItem label="Decorations" /></NavLink>
+                                    <NavLink to="/decorations" onClick={closemenu}><MenuItem label="Decorations" /></NavLink>
                                     <NavLink to="/tentHiring" onClick={closemenu}><MenuItem label="Tents & Chairs for Hire" /></NavLink>
                                     <NavLink to="/tableSetUp" onClick={closemenu}><MenuItem label="Table Set Up" /></NavLink>
                                     <NavLink to="/floralRequisition" onClick={closemenu}><MenuItem label="Floral Requisition" /></NavLink>
@@ -150,8 +150,8 @@ const NavLg = () => {
     return (
         <>
             <header className={`bg-white w-full bg-opacity-50 p-2 flex justify-between h-[120px] font-[Inter] fixed top-0 z-50 transition-all duration-300 ${scrolled ? ' bg-opacity-75 h-[70px] justify-around align-center' : ''}`}>
-                <div className={`my-auto pl-10 ${scrolled ? 'hidden' : ''}`}>
-                    <img src={require('../../Assets/IMG-20240515-WA0002.jpg')} alt="" className="w-[100px] max-h-[100px]"/>
+                <div className={`my-auto pl-10 bg-none ${scrolled ? 'hidden' : ''}`}>
+                    <img src={require('../../Assets/output-onlinepngtools.png')} alt="" className="w-[100px] max-h-[110px]"/>
                 </div>
                 <nav>
                     <div className={`flex justify-end ${scrolled ? 'hidden' : ''}`}>

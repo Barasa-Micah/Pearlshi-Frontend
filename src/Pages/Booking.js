@@ -25,7 +25,7 @@ const Booking = () => {
             <div className='mt-[100px]'>
               <h1 className='text-white text-lg font-["Inter"] my-3'>Our Customers Are Loving Us...</h1>
               <div className='bg-white text-black p-4'>
-                <p className='text-center font-["Inter"]'>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className='text-center text-sm font-["Inter"]'>"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <div className='w-[90px] h-[90px] mx-auto mt-4'>
                   <img src={require('../Assets/Executive/HeadChef1.jpg')} alt='' className='w-full h-full rounded-full' />
                 </div>
