@@ -13,13 +13,13 @@ const TableSetUp = () => {
       <Helmet>
         <title>Table Set Up | Pearlshi Caterers & Event Planners</title>
       </Helmet>
-      <body className='bg-[#FFFFFF] mt-[80px] md:mt-0'>
+      <body className='bg-[#FFFFFF] mt-[80px] md:mt-0 lg:mt-[125px]'>
         <section className='w-full relative'>
             <div className='h-full lg:h-screen'>
               <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-28 at 09.32.09_514744c7.jpg')} alt='' className='object-cover w-full h-full' />
             </div>
             <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
-              <div className='absolute bottom-[10%] md:bottom-[15%] left-[5%]'>
+              <div className='absolute bottom-[10%] md:bottom-[30%] left-[5%]'>
                 <h1 className='text-white text-4xl md:text-6xl lg:text-8xl font-semibold text-left font-["Inter"]'>Table Set Up</h1>
                 <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using </p>
               </div>
@@ -52,10 +52,10 @@ const TableSetUp = () => {
             </div>
           </div>
                 <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0033.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>

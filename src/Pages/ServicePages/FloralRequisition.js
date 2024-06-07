@@ -13,7 +13,7 @@ const FloralRequisition = () => {
         <Helmet>
             <title>Floral Requisition | Pearlshi Caterers & Event Planners</title>
         </Helmet>
-        <body className='bg-[#FFFFFF] mt-[80px] md:mt-0'>
+        <body className='bg-[#FFFFFF] mt-[80px] md:mt-0 lg:mt-[125px]'>
             <section className='w-full relative'>
                 <div className='h-full lg:h-screen'>
                     <img src={require('../../Assets/SlideShow/20240518104846_IMG_0418.jpg')} alt='' className='object-cover w-full h-full' />
@@ -52,10 +52,10 @@ const FloralRequisition = () => {
                     </div>
                 </div>
                 <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/Signup.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.35_0c8c76e2.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>

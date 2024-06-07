@@ -15,13 +15,13 @@ const EventPlanning = () => {
         <Helmet>
             <title>Event Planning & Management | Pearlshi Caterers & Event Planners</title>
         </Helmet>
-        <body className='bg-[#FFFFFF] mt-[80px] md:mt-0'>
+        <body className='bg-[#FFFFFF] mt-[80px] md:mt-0 lg:mt-[125px]'>
             <section className='w-full relative'>
                 <div className='h-full lg:h-screen'>
                     <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.33_d67cb860.jpg')} alt='' className='object-cover w-full h-full' />
                 </div>
                 <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
-                    <div className='absolute bottom-[30%] md:bottom-[10%] left-[5%]'>
+                    <div className='absolute bottom-[30%] md:bottom-[30%] left-[5%]'>
                         <h1 className='text-white text-4xl md:text-6xl lg:text-8xl font-semibold text-left font-["Inter"]'>Event Planning & Event Management</h1>
                     </div>
                 </div>
@@ -53,16 +53,16 @@ const EventPlanning = () => {
                     </div>
                 </div>
                 <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
                         <img src={require('../../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0033.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0023.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
                         <img src={require('../../Assets/SlideShow/20240518055737_IMG_0298.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>

@@ -1,24 +1,24 @@
 import React, {useRef} from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import ReviewForm from '../Components/Rating/ReviewForm';
-
-//components
-
+import { FaLinkedin } from "react-icons/fa6";
 
 
 const AboutUs = () => { 
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <>
       <Helmet>
         <title>About Us | Pearlshi Caterers & Event Planners</title>
       </Helmet>
-      <body className='bg-[#F5F2FB] w-full mt-[80px] md:mt-[100px] lg:mt-0'>
+      <body className='bg-[#F5F2FB] w-full mt-[80px] md:mt-[100px] lg:mt-[125px]'>
         <div className="w-full h-56 md:h-96 relative">
-          <img src={require('../Assets/SlideShow/20240518134030_IMG_0519.jpg')} alt="" className='w-full h-full object-cover' />
-          <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center'>
+          <img src={require('../Assets/SlideShow/20240518133928_IMG_0517.jpg')} alt="" className='w-full h-full object-cover' />
+          <div className='absolute top-[50%] left-[40%]  flex items-center'>
             <hr className=' flex-grow'/>
-            <h1 className='text-3xl md:text-7xl text-header-700 text-center font-semibold'>About Us</h1>
+            <h1 className='text-3xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
             <hr className='flex-grow'/>
           </div>
         </div>
@@ -31,10 +31,10 @@ const AboutUs = () => {
           </div>
           <div className='lg:w-[90%] mx-auto flex justify-center'>
             <ul className='lg:inline-flex  justify-center items-center text-center space-x-7'>
-              <li><a href='#WhoWeAre'><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Who We Are</button></a></li>
+              <li><button onClick={() => scrollToSection('WhoWeAre')} className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Who We Are</button></li>
               <li><a href="#OurVision"><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Vision</button></a></li>
               <li><a href="#OurMission"><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Mision</button></a></li>
-              <li><a href="#OurTeam"><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Team</button></a></li>
+              <li><button onClick={() => scrollToSection('OurTeam')} className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Team</button></li>
             </ul>
           </div>
         </section>
@@ -58,7 +58,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className='absolute bottom-[20px] right-[50px]'>
-            <Link to=""><button className='text-white bg-[#00ADEF] font-bold text-xl px-4 py-2 rounded-tl-3xl rounded-br-3xl'>Reach Out</button></Link>
+            <Link to="/connect"><button className='text-white bg-[#00ADEF] font-bold text-xl px-4 py-2 rounded-tl-3xl rounded-br-3xl'>Reach Out</button></Link>
           </div>
         </section>
 
@@ -97,6 +97,18 @@ const AboutUs = () => {
           <h1 className='text-center text-4xl pt-11 mb-4'>OUR TEAM</h1>
           <p className='text-gray-500 text-center text-lg'>Meet the brilliant individuals behind our success.</p>
           <div className='mt-8 flex flex-wrap gap-3 justify-center items-center'>
+          <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Director.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Kennedy Muia</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Director</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
             <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
               <div className='w-[150px] h-[150px] mx-auto'>
                 <img src={require('../Assets/Executive/Marketing Manager.jpg')} alt='' className='w-full h-full rounded-full' />
@@ -105,7 +117,7 @@ const AboutUs = () => {
               <p className='text-[#00ADEF] text-center text-sm pb-3'>Marketing Manager</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>
@@ -117,7 +129,7 @@ const AboutUs = () => {
               <p className='text-[#00ADEF] text-center text-sm pb-3'>Head of Finance</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>
@@ -129,7 +141,7 @@ const AboutUs = () => {
               <p className='text-[#00ADEF] text-center text-sm pb-3'>Head Chef</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>
@@ -141,7 +153,7 @@ const AboutUs = () => {
               <p className='text-[#00ADEF] text-center text-sm pb-3'>Photographer</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>
@@ -153,19 +165,7 @@ const AboutUs = () => {
               <p className='text-[#00ADEF] text-center text-sm pb-3'>Marketing Manager</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
-                </a>
-              </span>
-            </div>
-            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-10 transition-all duration-700'>
-              <div className='w-[150px] h-[150px] mx-auto'>
-                <img src={require('../Assets/Executive/Marketing Manager.jpg')} alt='' className='w-full h-full rounded-full' />
-              </div>
-              <h1 className='text-center text-xl font-bold'>Faith Wanjiru</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Marketing Manager</p>
-              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
-                <a href="">
-                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>

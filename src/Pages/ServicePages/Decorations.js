@@ -13,7 +13,7 @@ const Decorations = () => {
         <Helmet>
             <title>Decorations | Pearlshi Caterers & Event Planners</title>
         </Helmet>
-          <body className='bg-[#FFFFFF] mt-[80px] md:mt-0'>
+          <body className='bg-[#FFFFFF] mt-[80px] md:mt-0 lg:mt-[125px]'>
             <section className='w-full relative'>
                 <div className='h-full lg:h-screen'>
                     <img src={require('../../Assets/SlideShow/20240518104820_IMG_0416.jpg')} alt='' className='object-cover w-full h-full' />
@@ -58,16 +58,16 @@ const Decorations = () => {
                     </div>
                 </div>
                 <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518094352_IMG_0373 (1).jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0024.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518093908_IMG_0360.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518121639_IMG_0493.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -79,10 +79,10 @@ const Decorations = () => {
                     <p className='font-["Inter"] text-md pt-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                     <p className='font-["Inter"] text-md pt-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <div className='pt-7 md:flex gap-2 space-y-2 md:space-y-0 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

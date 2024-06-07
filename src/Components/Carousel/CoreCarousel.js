@@ -28,13 +28,12 @@ const CoreCarousel = () => {
                             <div className='max-w-[200px] '>
                                 <p className='text-center text-3xl mt-10'>We are committed to the highest standards of quality in every dish we create and every service we provide.</p>
                             </div>
-                            
                         </div>
                     </div>
                     <div className='w-[500px] h-[500px] rounded-full relative inline-flex'>
                         <img src={require('../../Assets/SlideShow/20240518105139_IMG_0420.jpg')} alt="" className='w-[500px] h-[500px] rounded-full object-cover' />
                         <div className='absolute top-0 bg-[#1E40AF] text-white w-[500px] h-[500px] rounded-full bg-opacity-[40%] shadow-xl p-4'>
-                            <h1 className='text-center font-bold text-2xl'>Integrity</h1>
+                            <h1 className='text-center font-bold text-2xl'>Passion</h1>
                         </div>
                     </div>
                 </Slider>

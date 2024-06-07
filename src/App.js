@@ -13,6 +13,7 @@ import ScrollToTop from './Components/ScrollToTop';
 import HomePage from './Pages/Home';
 import ContactPage from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
+import GalleryMain from './Pages/Gallery';
 
 //Service Pages
 import Decorations from './Pages/ServicePages/Decorations';
@@ -36,6 +37,7 @@ function App() {
             <Route exact path="/" element={<HomePage />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/connect" element={<ContactPage />} />
+            <Route path="/gallery" element={<GalleryMain />} />
 
             <Route path="/decorations" element={<Decorations />} />
             <Route path="/floralRequisition" element={<FloralRequisition />} />

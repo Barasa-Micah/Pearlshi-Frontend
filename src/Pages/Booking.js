@@ -84,7 +84,7 @@ const Booking = () => {
               <input type='submit' value="Book Now" className='w-[70%] flex flex-col items-center justify-center my-5 py-3 bg-[#135A70] text-white text-xl  font-["Inter"] hover:cursor-pointer' />
             </form>
           </div>
-  
+
         </section>
       </body>
     </>

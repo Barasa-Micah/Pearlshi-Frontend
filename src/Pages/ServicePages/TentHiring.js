@@ -58,10 +58,10 @@ const TentHiring = () => {
                     </div>
                 </div>
                 <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0040.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
                         <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-28 at 09.32.09_514744c7.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
