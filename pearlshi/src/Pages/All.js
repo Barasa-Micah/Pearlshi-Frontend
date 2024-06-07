@@ -1,18 +1,18 @@
 import React from 'react';
 import GalleryHero from '../Components/GalleryHero';
 import GalleryNavigation from '../Components/GalleryNavigation';
-import TraditionalMain from '../Components/TraditionalMain';
+import GalleryMain from '../Components/GalleryMain';
 
 
-const TraditionalEvents = () => {
+const All = () => {
     return (
         <>
         <GalleryHero />
         <GalleryNavigation />
-        <TraditionalMain />      
+        <GalleryMain />      
         </>
     );
 
 };
 
-export default TraditionalEvents;
+export default All;

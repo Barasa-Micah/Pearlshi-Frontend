@@ -1,7 +1,7 @@
 import React from 'react';
 import GalleryHero from '../Components/GalleryHero';
 import GalleryNavigation from '../Components/GalleryNavigation';
-import GalleryMain from '../Components/GalleryMain';
+import CorprateMain from '../Components/CorprateMain';
 
 
 const CorprateEvents = () => {
@@ -9,7 +9,7 @@ const CorprateEvents = () => {
         <>
         <GalleryHero />
         <GalleryNavigation />
-        <GalleryMain />      
+        <CorprateMain />      
         </>
     );
 
