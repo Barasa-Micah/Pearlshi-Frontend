@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "fslightbox-react": "^1.7.6",
     "jest-cli": "^29.7.0",
     "lightbox.js-react": "^1.0.8",
     "react": "^18.3.1",
