@@ -18,11 +18,11 @@ const Booking = () => {
         <title>Booking | Pearlshi Cateres & Event Planners</title>
       </Helmet>
       <body className='bg-[#F5F2FB] mt-[120px] p-4'>
-        <section className='bg-[#135A70] w-[95%] mx-auto mt-[100px] flex justify-center items-center gap-3 p-4 '>
+        <section className='bg-[#135A70] w-[95%] mx-auto mt-[100px] md:flex justify-center items-center gap-3 p-4 '>
           <div className='text-white basis-[40%]'>
             <h1 className='font-["Inter"] text-3xl'>Book With Us</h1>
             <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,.</p>
-            <div className='mt-[100px]'>
+            {/* <div className='mt-[100px]'>
               <h1 className='text-white text-lg font-["Inter"] my-3'>Our Customers Are Loving Us...</h1>
               <div className='bg-white text-black p-4'>
                 <p className='text-center text-sm font-["Inter"]'>"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -31,7 +31,7 @@ const Booking = () => {
                 </div>
                 <h1 className='text-center text-header-500 text-lg'>John Muturi</h1>
               </div>
-            </div>
+            </div> */}
           </div>
 
 
