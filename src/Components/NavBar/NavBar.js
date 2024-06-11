@@ -73,7 +73,7 @@ const NavSm = () => {
                                 <NavLink to="/eventPlanning" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></NavLink>
                                 <NavLink to="/backdrop&Garland" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></NavLink>
                             </MenuItem>
-                            <NavLink to="" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
+                            <NavLink to="/gallery" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
                             <NavLink to="/connect" onClick={closemenu}><MenuItem label="Contact Us" /></NavLink>
                             <div>
                                 <Link to="/booking"><button onClick={closemenu} className="bg-[#00ADEF]  text-white text-lg font-bold px-5 py-2 transition-colors duration-300 rounded-full">Book Now</button></Link>
@@ -124,7 +124,7 @@ const NavMd = () => {
                                     <NavLink to="/eventPlanning" onClick={closemenu}><MenuItem label="Event Planning & Event Management" /></NavLink>
                                     <NavLink to="/backdrop&Garland" onClick={closemenu}><MenuItem label="Backdrops & Garlands for Hire" /></NavLink>
                                 </MenuItem>
-                                <NavLink to="" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
+                                <NavLink to="/gallery" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
                                 <NavLink to="/connect" onClick={closemenu}><MenuItem label="Contact Us" /></NavLink>
                                 <div>
                                     <Link to="/booking"><button className="bg-[#00ADEF]  text-white text-lg font-bold px-5 py-2 transition-colors duration-300 rounded-full">Book Now</button></Link>
@@ -173,7 +173,7 @@ const NavLg = () => {
                             </a>
                         </span>
                     </div>
-                    <div className="flex justify-center items-center space-x-3">
+                    <div className="flex justify-center items-center space-x-2">
                         <span className="text-xl flex justify-center items-center text-white hover:text-[#00ADEF] hover:cursor-pointer hover:scale-125 transition-all duration-300 my-auto">
                             <a href="https://www.instagram.com/the_pearlshi_caterers?igsh=ZTRqdTRsZHNvbmtw" target="_blank">
                                 <FaInstagram  />
