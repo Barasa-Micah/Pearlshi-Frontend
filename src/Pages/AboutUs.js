@@ -16,9 +16,9 @@ const AboutUs = () => {
       <body className='bg-[#F5F2FB] w-full mt-[80px] md:mt-[100px] lg:mt-[125px]'>
         <div className="w-full h-56 md:h-96 relative">
           <img src={require('../Assets/SlideShow/20240518133928_IMG_0517.jpg')} alt="" className='w-full h-full object-cover' />
-          <div className='absolute top-[50%] left-[40%]  flex items-center'>
+          <div className='absolute top-[30%] left-[30%] md:top-[50%] md:left-[40%]  flex items-center'>
             <hr className=' flex-grow'/>
-            <h1 className='text-3xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
+            <h1 className='text-4xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
             <hr className='flex-grow'/>
           </div>
         </div>

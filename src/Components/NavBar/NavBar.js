@@ -46,7 +46,7 @@ const NavSm = () => {
 
     return (
         <>
-            <nav className="bg-white fixed top-0 z-50 w-full shadow-2xl">
+            <nav className="bg-white fixed top-0 z-50 w-full shadow-xl">
                 <div className="h-[80px] px-3 flex justify-between ">
                     <div className=" my-auto">
                         <NavLink to="/">

@@ -214,10 +214,10 @@ const HomePage = () => {
             <section className="bg-[#F5F2FB] p-7">
                 <h4 className="text-[#00ADEF] text-center mt-5 font-Home">COMPANY</h4>
                 <h1 className="text-center text-4xl mb-5 font-Home">Core Values</h1>
-                <div className="bg-white w-[95%] md:w-[87%] mx-auto rounded-xl md:flex justify-center items-center gap-2">
+                <div className="bg-white w-[99%] md:w-[87%] mx-auto rounded-xl md:flex justify-center items-center gap-2">
                     <div className="basis-[40%] p-3">
                         <h1 className="text-3xl md:text-5xl font-semibold font-['Poppins'] text-center md:text-left">Our Promise Behind Every Event</h1>
-                        <Link to="/connect"><button className='bg-[#00ADEF] mt-4     text-white font-semibold text-2xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Reach Out</button></Link>
+                        <Link to="/connect" className="flex flex-col justify-center items-center"><button className='bg-[#00ADEF] mt-4 text-white font-semibold text-2xl px-5 py-2 rounded-tr-3xl rounded-bl-3xl lg:w-auto mb-3 lg:mb-0'>Reach Out</button></Link>
                     </div>
                     <div className="basis-[50%] space-y-3 p-2">
                         <div className="flex gap-2">
