@@ -11,7 +11,7 @@ function ContactPage() {
   return (
     <>
     <section className='bg-[#ffffff]'>
-      <section className='w-full relative mt-[120px]'>
+      <section className='w-full relative mt-[80px] lg:mt-[120px]'>
         <div className='h-full lg:h-96'>
           <img src={require('../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt='' className='object-cover w-full h-full' />
         </div>
@@ -29,7 +29,7 @@ function ContactPage() {
           <h1 className='text-5xl '>Contact Us</h1>
           <p className='font-light font-md w-[90%]'>Do you need some help planning an event? Please fill in the form below.I look forward to receiving your enquiry and hearing more about your upcoming event!</p>
         </div>
-        <div className='flex justify-around space-x-[100px] mt-[100px] mb-[50px]'>
+        <div className='md:flex md:flex-wrap lg:flex-nowrap justify-around gap-7 space-y-3 lg:space-x-[100px] mt-[100px] mb-[50px]'>
           <div className='flex gap-2'>
             <span className='text-[#00ADEF] text-7xl'>
               <RiCustomerServiceLine />

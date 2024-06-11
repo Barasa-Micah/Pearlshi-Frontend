@@ -40,19 +40,25 @@ const EventPlanning = () => {
                         <span className='text-3xl text-[#00ADEF] my-auto'>
                             <MdAttachEmail />
                         </span>
-                        <p className='text-["Inter"]'>pearlcaterers0205@gmail.com</p>
+                        <a href='mailto:pearlcaterers0205@gmail.com'>
+                            <p className='text-["Inter"] hover:text-[#00ADEF]'>pearlcaterers0205@gmail.com</p>
+                        </a>
                     </div>
                     <div className='flex space-x-4 pt-2'>
                         <span className='text-2xl text-[#00ADEF] my-auto'>
                             <FaPhoneAlt />
                         </span>
                         <div className='flex gap-2'>
-                            <p className='text-["Inter"]'></p>
-                            <p className='text-["Inter"]'>0759108174</p>
+                            <a href='tel:0715615609'>
+                                <p className='text-["Inter"] hover:text-[#00ADEF]'>0715615609 /</p>
+                            </a>
+                            <a href='tel:0759108174'>
+                                <p className='text-["Inter"] hover:text-[#00ADEF]'>0759108174</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
+                <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center'>
                     <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
                         <img src={require('../../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
@@ -73,7 +79,7 @@ const EventPlanning = () => {
                     <h1 className='text-3xl font-semibold font-["Inter"]'>Event Planning & Event Management Services</h1>
                     <p className='font-["Inter"] text-md pt-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                     <p className='font-["Inter"] text-md pt-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <div className='pt-7 md:flex gap-2 space-y-2 md:space-y-0 justify-center items-center'>
+                    <div className='pt-7 flex gap-2 justify-center items-center'>
                         <div className='w-[350px] h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
@@ -87,7 +93,7 @@ const EventPlanning = () => {
                     <p className='text-md font-["Inter"]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <div className='flex flex-col items-center space-y-2'>
                         <Link to="/booking"><button className='bg-[#00ADEF] border-black text-white text-3xl w-[300px] py-2 text-center'>Book Now</button></Link>
-                        <Link to="/"><button className='bg-[#C61313] text-white text-3xl w-[300px] py-2 text-center'>View Our Gallery</button></Link>
+                        <Link to="/gallery"><button className='bg-[#C61313] text-white text-3xl w-[300px] py-2 text-center'>View Our Gallery</button></Link>
                     </div>
                 </div>
             </section>

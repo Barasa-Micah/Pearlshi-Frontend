@@ -8,7 +8,9 @@ module.exports = {
       fontFamily: {
         'About': ['"Imperial Script"'],
         'Title': ['"Yeseva One"'],
-        'Home': ['Roboto', 'sans-serif']
+        'Home': ['Roboto', 'sans-serif'],
+        'Mons': ['Montserrat'],
+        'Open': ["Open Sans"]
       },
       colors: {
         wedding: {

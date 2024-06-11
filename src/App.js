@@ -22,6 +22,7 @@ import TentHiring from './Pages/ServicePages/TentHiring';
 import EventPlanning from './Pages/ServicePages/EventPlanning';
 import OfficeDelivery from './Pages/ServicePages/OfficeDelivery';
 import TableSetUp from './Pages/ServicePages/TableSetUp';
+import BackdropHiring from './Pages/ServicePages/BackdropHire';
 
 import Booking from './Pages/Booking';
 import SignUp from './Components/SignUp/SignUp';
@@ -45,6 +46,7 @@ function App() {
             <Route path="/eventPlanning" element={<EventPlanning />} />
             <Route path="/officeDelivery" element={<OfficeDelivery />} />
             <Route path="/tableSetUp" element={<TableSetUp />} />
+            <Route path="/backdrop&Garland" element={<BackdropHiring />} />
 
             <Route path="/booking" element={<Booking />} />
           </Routes>

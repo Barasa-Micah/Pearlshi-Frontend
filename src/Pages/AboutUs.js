@@ -30,7 +30,7 @@ const AboutUs = () => {
             <h1 className='text-center pt-3 text-2xl md:text-4xl font-["Inter"]'>PEARLSHI CATERERS & EVENT PLANNERS</h1>
           </div>
           <div className='lg:w-[90%] mx-auto flex justify-center'>
-            <ul className='lg:inline-flex  justify-center items-center text-center space-x-7'>
+            <ul className='lg:inline-flex  justify-center items-center text-center gap-4 lg:space-x-7'>
               <li><button onClick={() => scrollToSection('WhoWeAre')} className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Who We Are</button></li>
               <li><a href="#OurVision"><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Vision</button></a></li>
               <li><a href="#OurMission"><button className='bg-[#00ADEF] text-white font-semibold text-4xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Our Mision</button></a></li>
@@ -63,7 +63,7 @@ const AboutUs = () => {
         </section>
 
         {/* Vision Section */}
-        <section id='OurVision'>
+        <section id='OurVision' className='pt-4'>
           <div className='w-[95%] lg:w-[80%] mx-auto mt-[100px]'>
             <h1 className='text-white text-2xl md:text-4xl font-bold bg-[#00ADEF] px-2 w-[150px] h-[40px] md:w-[220px] md:h-[50px] py-auto'>Our Vision</h1>
             <div className='md:flex justify-evenly space-x-2 bg-white rounded-lg p-4 shadow-2xl'>
@@ -78,7 +78,7 @@ const AboutUs = () => {
         </section>
 
         {/* Mission Section */}
-        <section id='OurMission'>
+        <section id='OurMission' className='pt-4'>
           <div className='w-[95%] lg:w-[80%] mx-auto mt-[100px]'>
             <h1 className='text-white text-2xl md:text-4xl flex  font-bold bg-[#00ADEF] px-2 w-[170px] h-[40px]  md:w-[220px] md:h-[50px] py-auto'>Our Mission</h1>
             <div className='md:flex flex-row-reverse justify-evenly space-x-2 bg-white rounded-lg p-4 shadow-2xl'>

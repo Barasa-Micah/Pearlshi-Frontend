@@ -36,11 +36,16 @@ const Booking = () => {
 
 
           <div className='basis-[55%] bg-white p-3'>
-            <form method='POST' action='' className=''>
+            <form action="https://api.web3forms.com/submit" method="POST" className=''>
+            <input type="hidden" name="access_key" value="203298c2-7be9-4de5-b1c6-1b91f760bea0"></input>
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
-                  <label>Full Name</label>
-                  <input type='text' name='booker_name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <label>First Name</label>
+                  <input type='text' name='booker_fname' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                </div>
+                <div className='text-md font-["Inter"]'>
+                  <label>Last Name</label>
+                  <input type='text' name='booker_lname' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Phone Number</label>
@@ -52,7 +57,7 @@ const Booking = () => {
                 </div>
               </div>
               <label id='package'>Choose a Package</label>
-              <select id="package" className='w-[300px p-3]'>
+              <select id="package" className='w-[300px] py-2 px-2 mt-3'>
                 <option value="event_name" className='w-[300px p-3]'>Event Planning</option>
                 <option value="Caterers">Caterers</option>
                 <option value="Both">Both</option>

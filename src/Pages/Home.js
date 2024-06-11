@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 //Icons
-import { FaBirthdayCake } from "react-icons/fa";
+import { FaBirthdayCake, FaBalanceScaleRight } from "react-icons/fa";
 
 
 //Components
 import HeroCarousel from "../Components/Carousel/HeroCarousel";
-import CoreCarousel from "../Components/Carousel/CoreCarousel";
 
 
 const HomePage = () => {
@@ -94,9 +93,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black  bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="hidden group-hover:block text-center pt-4 text-4xl font-semibold font-About">Decorations</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black  bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="lg:hidden group-hover:block text-center pt-4 text-4xl font-semibold font-About">Decorations</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -105,9 +104,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Table Set Up</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Table Set Up</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -116,9 +115,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Floral Requisition</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Floral Requisition</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -127,9 +126,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Office Delivery</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Office Delivery</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -138,9 +137,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/TablesetUp.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Tents & Chair Hiring</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Tents & Chair Hiring</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -149,9 +148,9 @@ const HomePage = () => {
                             <div className="h-[400px] w-[270px]">
                                 <img src={require('../Assets/SlideShow/20240518094352_IMG_0373 (2).jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
-                                <h1 className="text-white hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Event Planning & Management</h1>
-                                <p className="hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                                <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Event Planning & Management</h1>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </Link>
                     </div>
@@ -212,23 +211,61 @@ const HomePage = () => {
             </section>
 
             {/* Core Values */}
-            <section className="bg-gradient-to-r from-header-200 via-header-600 w-full p-5">
-                    <h1 className="text-4xl text-left w-[50%] mx-auto font-semibold font-Title">Our Values</h1> 
-                <div className="flex space-x-4">
-                    <div className="flex-1 ">
-                        <div>
-                            <h3 className="text-black text-xl text-center my-10 w-[200px] ml-9">Our core values define our company culture.</h3>
-                            <ul className="text-white text-xl m-[100px]">
-                                <li className="ml-[12px] my-2">Integrity</li>
-                                <li className="ml-[24px] mb-2">Passion</li>
-                                <li className="ml-[36px] mb-2">Creativity</li>
-                                <li className="ml-[42px] mb-2">Excellence</li>
-                                <li className="ml-[54px] ">Sustainability</li>
-                            </ul>
-                        </div>
+            <section className="bg-[#F5F2FB] p-7">
+                <h4 className="text-[#00ADEF] text-center mt-5 font-Home">COMPANY</h4>
+                <h1 className="text-center text-4xl mb-5 font-Home">Core Values</h1>
+                <div className="bg-white w-[95%] md:w-[87%] mx-auto rounded-xl md:flex justify-center items-center gap-2">
+                    <div className="basis-[40%] p-3">
+                        <h1 className="text-3xl md:text-5xl font-semibold font-['Poppins'] text-center md:text-left">Our Promise Behind Every Event</h1>
+                        <Link to="/connect"><button className='bg-[#00ADEF] mt-4     text-white font-semibold text-2xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Reach Out</button></Link>
                     </div>
-                    <div className="flex-1 w-[2%]">
-                        <CoreCarousel />
+                    <div className="basis-[50%] space-y-3 p-2">
+                        <div className="flex gap-2">
+                            <div className="w-[90px] h-[90px] overflow-hidden rounded-lg">
+                                <img src={require('../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.35_0c8c76e2.jpg')} alt="" className="w-full h-full object-cover rounded-lg hover:cursor-pointer hover:scale-150 ease-in-out transition-all duration-300" />
+                            </div>
+                            <div className="font-Home w-[70%] overflow-hidden rounded-lg">
+                                <h1 className="text-xl">Integrity</h1>
+                                <p className="text-sm text-wrap text-black/75">We conduct our business with honesty and transparency, fostering trust and long-lasting relationships with our clients and partners</p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className="w-[90px] h-[90px] overflow-hidden rounded-lg">
+                                <img src="https://images.unsplash.com/photo-1527499861446-cc219aea45ae?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full h-full object-cover rounded-lg hover:cursor-pointer hover:scale-150 ease-in-out transition-all duration-300" />
+                            </div>
+                            <div className="font-Home w-[70%]">
+                                <h1 className="text-xl">Excellence</h1>
+                                <p className="text-sm text-wrap text-black/75">We are committed to the highest standards of quality in every dish we create and every service we provide.</p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className="w-[90px] h-[90px] overflow-hidden rounded-lg">
+                                <img src="https://images.unsplash.com/photo-1650847821830-2c24e212213f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full h-full object-cover rounded-lg hover:cursor-pointer hover:scale-150 ease-in-out transition-all duration-300" />
+                            </div>
+                            <div className="font-Home w-[70%]">
+                                <h1 className="text-xl">Passion</h1>
+                                <p className="text-sm text-wrap text-black/75">Our love for food and dedication to exceptional service drive us to continually improve and perfect our craft.</p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className="w-[90px] h-[90px] overflow-hidden rounded-lg">
+                                <img src="https://images.unsplash.com/photo-1625943555419-56a2cb596640?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full h-full object-cover rounded-lg hover:cursor-pointer hover:scale-150 ease-in-out transition-all duration-300" />
+                            </div>
+                            <div className="font-Home w-[70%]">
+                                <h1 className="text-xl">Sustainability</h1>
+                                <p className="text-sm text-black/75">We are dedicated to sustainable practices, sourcing local and organic ingredients whenever possible to support our community and environment
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className="w-[90px] h-[90px] overflow-hidden rounded-lg">
+                                <img src="https://images.unsplash.com/photo-1518619745898-93e765966dcd?q=80&w=1534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full h-full object-cover rounded-lg hover:cursor-pointer hover:scale-150 ease-in-out transition-all duration-300" />
+                            </div>
+                            <div className="font-Home w-[70%]">
+                                <h1 className="text-xl">Creativity</h1>
+                                <p className="text-sm text-black/75">We embrace innovation and creativity, offering unique and customized menus that reflect our clients’ tastes and preferences.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

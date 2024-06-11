@@ -18,100 +18,97 @@ const HeroCarousel = () => {
 
     return (
         <>
-            <div className="hidden lg:block mt-[120px]">
+            <div className="hidden lg:block mt-[120px] overflow-hidden">
                 <Slider {...settingsLg}>
                     <div className="h-screen relative w-full ">
                         <div className="w-full h-screen">
+                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="Pearlshi Caterers" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="absolute bottom-[40%] left-[10%]">
+                            <h1 className="text-white font-bold text-7xl font-Home drop-shadow-lg">Pearlshi Caterers</h1>
+                            <p className="text-xl text-header-200 drop-shadow-md">Turning Your Dreams into Delicious Realities</p>
+                        </div>
+                    </div>
+                    <div className="h-screen relative w-full">
+                        <div  className="w-full h-screen">
+                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="Pearlshi Caterers" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="absolute bottom-[40%] left-[10%] font-['Inter'] w-[70%]">
+                            <h1 className="text-white font-bold text-6xl font-Home drop-shadow-lg">Event Planning & Event Management</h1>
+                            <p className="text-lg text-header-200 mt-3 drop-shadow-md">Your Vision, Our Expertise – Perfectly Planned Events</p>
+                        </div>
+                    </div>
+                    <div className="h-screen relative w-full">
+                        <div  className="w-full h-screen">
+                            <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.33_d67cb860.jpg')} alt="" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="absolute bottom-[40%] left-[20%]">
+                            <h1 className="text-white text-6xl font-Home drop-shadow-lg">Pearlshi Events</h1>
+                            <p className="text-xl text-white drop-shadow-md">Creating Celebrations with a Personal Touch</p>
+                        </div>
+                    </div>
+                </Slider>
+            </div>
+
+            <div className="hidden md:block lg:hidden mt-[100px] overflow-hidden">
+                <Slider {...settingsLg}>
+                    <div className="h-[500px] w-full relative">
+                        <div className="h-[500px] w-full overflow-hidden">
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute bottom-[30%] left-[10%]">
-                            <h1 className="text-white text-7xl font-['Inter']">Pearlshi Caterers</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
+                        <div className="absolute top-[50%] left-[2%]">
+                            <h1 className="text-white text-7xl font-[Inter]">Pearlshi Events</h1>
+                            <p className="text-xl text-header-200">Turning Your Dreams into Delicious Realities</p>
                         </div>
                     </div>
-                    <div className="h-screen relative w-full">
-                        <div  className="w-full h-screen">
+                    <div className="h-[500px] relative w-full">
+                        <div className="h-[500px] w-full overflow-hidden">
                             <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute top-1/2 left-[10%] font-['Inter'] w-[650px]">
-                            <h1 className="text-white text-7xl font-[Inter]">Event Planning & Event Management</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
-                            <button className="px-4 py-3 text-lg">Learn More</button>
+                        <div className="absolute  top-[50%] left-[2%]  font-[Inter]">
+                            <h1 className="text-white text-6xl font-[Inter]">Event Planning & Event Management</h1>
+                            <p className="text-xl text-header-200">Your Vision, Our Expertise – Perfectly Planned Events</p>
                         </div>
                     </div>
-                    <div className="h-screen relative w-full">
-                        <div  className="w-full h-screen">
-                            <img src={require('../../Assets/SlideShow/20240518121639_IMG_0493.jpg')} alt="" className="w-full h-full object-cover" />
+                    <div className="h-[500px] w-full relative">
+                        <div className="h-[500px] w-full overflow-hidden">
+                            <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.33_d67cb860.jpg')} alt="Pearlshi Caterers" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute bottom-[20%] left-[20%] transform ">
+                        <div className="absolute top-[50%] left-[1%] p-10">
                             <h1 className="text-white text-6xl font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
+                            <p className="text-xl text-header-200">Creating Celebrations with a Personal Touch</p>
                         </div>
                     </div>
                 </Slider>
             </div>
 
-            <div className="hidden md:block lg:hidden mt-[100px]">
-                <Slider {...settingsLg}>
-                    <div className="h-[500px] relative w-full">
-                        <div className="h-[500px]">
-                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full" />
-                        </div>
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  items-center p-10">
-                            <h1 className="text-white text-7xl font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
-                        </div>
-                    </div>
-                    <div className="h-[500px] relative w-full">
-                        <div className="h-[500px]">
-                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="" className="w-full max-h-screen" />
-                        </div>
-                        <div className="absolute  left-[300px] p-10 font-[Inter]">
-                            <h1 className="text-white text-6xl font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
-                            <button className="px-4 py-3 text-lg">Learn More</button>
-                        </div>
-                    </div>
-                    <div className="h-[500px] relative w-full">
-                        <div className="h-[500px]">
-                            <img src={require('../../Assets/SlideShow/20240518093945_IMG_0363.jpg')} alt="" className="w-full max-h-screen" />
-                        </div>
-                        <div className="absolute  p-10">
-                            <h1 className="text-white text-8xl font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
-                        </div>
-                    </div>
-                </Slider>
-            </div>
-
-            <div className="md:hidden mt-[80px]">
+            <div className="md:hidden mt-[80px] overflow-hidden">
                 <Slider {...settingsLg}>
                     <div className="h-[250px] relative w-full">
-                        <div className="h-[250px] w-full">
-                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="" className="w-full h-full" />
+                        <div className="h-[250px] w-full overflow-hidden">
+                            <img src={require('../../Assets/SlideShow/IMG-20240515-WA0004.jpg')} alt="Pearlshi Caterers" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute  flex flex-col items-center justify-center p-2">
-                            <h1 className="text-white text-lg font-bold font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-md text-white">Your premier events and catering service provider</p>
-                        </div>
-                    </div>
-                    <div className="h-[250px] relative w-full">
-                        <div className="h-[250px] w-full">
-                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="" className="w-full h-full" />
-                        </div>
-                        <div className="absolute   p-2 font-[Inter]">
-                            <h1 className="text-white text-lg font-[Inter]"></h1>
-                            <p className="text-md text-white"></p>
-                            <button className="px-4 py-3 text-lg"></button>
+                        <div className="absolute top-[50%] left-[1%] p-2 font-Open">
+                            <h1 className="text-white text-4xl font-semibold">Pearlshi Events</h1>
+                            <p className="text-md text-header-200 ">Turning Your Dreams into Delicious Realities</p>
                         </div>
                     </div>
                     <div className="h-[250px] relative w-full">
-                        <div className="h-[250px] w-full">
-                            <img src={require('../../Assets/SlideShow/20240518093945_IMG_0363.jpg')} alt="" className="w-full h-full" />
+                        <div className="h-[250px] w-full overflow-hidden">
+                            <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt="Pearlshi Caterers" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute  p-10">
-                            <h1 className="text-white text-8xl font-[Inter]">Pearlshi Events</h1>
-                            <p className="text-xl text-white">Your premier events and catering service provider</p>
+                        <div className="absolute top-[45%] left-[1%]  p-2 font-Open">
+                            <h1 className="text-white text-3xl font-semibold">Event Planning & Event Management</h1>
+                            <p className="text-md text-header-200">Your Vision, Our Expertise – Perfectly Planned Events</p>
+                        </div>
+                    </div>
+                    <div className="h-[250px] relative w-full">
+                        <div className="h-[250px] w-full overflow-hidden">
+                            <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.33_d67cb860.jpg')} alt="" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="absolute top-[45%] left-0 p-4 font-Open">
+                            <h1 className="text-white text-4xl font-semibold">Pearlshi Events</h1>
+                            <p className="text-xl text-header-200">Creating Celebrations with a Personal Touch</p>
                         </div>
                     </div>
                 </Slider>
