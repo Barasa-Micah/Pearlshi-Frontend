@@ -37,7 +37,7 @@ const Booking = () => {
 
           <div className='basis-[55%] bg-white p-3'>
             <form action="https://api.web3forms.com/submit" method="POST" className=''>
-            <input type="hidden" name="access_key" value="203298c2-7be9-4de5-b1c6-1b91f760bea0"></input>
+            <input type="hidden" name="access_key" value="6152af76-4346-403d-a7b3-fdcfceaf5455"></input>
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
                   <label>First Name</label>
@@ -84,7 +84,7 @@ const Booking = () => {
                   <input type='text' name='location' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <label>Description</label>
-                <textarea type="text" name='description' rows="6" className='bg-[#F5F2FB] block w-[400px]'/>
+                <textarea type="text" name='description' rows="6" className='bg-[#F5F2FB] block w-[400px]' required/>
               </div>
               <input type='submit' value="Book Now" className='w-[70%] flex flex-col items-center justify-center my-5 py-3 bg-[#135A70] text-white text-xl  font-["Inter"] hover:cursor-pointer' />
             </form>

@@ -79,14 +79,15 @@ function ContactPage() {
       <div className="w-full basis-[50%] p-6">
         <h1 className="font-semi bold text-3xl mb-4 text-white ">Get The Party Started</h1>
         <p className='text-white'>As the premier event planning company in the area. Each event and client is unique and we believe our services should be as well.</p>
-        <form action="." className="grid grid-cols-2 gap-4">
+        <form action="https://api.web3forms.com/submit" method="POST" className="grid grid-cols-2 gap-4">
+          <input type="hidden" name="access_key" value="6152af76-4346-403d-a7b3-fdcfceaf5455"></input>
           <div>
             <label htmlFor="firstName" className="block text-sm font-medium text-white">
               First Name:
             </label>
             <input
               type="text"
-              id="firstName"
+              name="firstName"
               placeholder="Enter first name"
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               required
@@ -98,7 +99,7 @@ function ContactPage() {
             </label>
             <input
               type="text"
-              id="lastName"
+              name="lastName"
               placeholder="Enter last name"
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               required
@@ -110,7 +111,7 @@ function ContactPage() {
             </label>
             <input
               type="email"
-              id="email"
+              name="email"
               placeholder="Enter email"
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               required
@@ -122,51 +123,19 @@ function ContactPage() {
             </label>
             <input
               type="text"
-              id="number"
+              name="Phone Number"
               placeholder="Enter number"
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               required
             />
           </div>
-          {/* <div>
-            <label htmlFor="dob" className="block text-sm font-medium text-white">
-              Date of Birth:
-            </label>
-            <input
-              type="date"
-              id="dob"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
-            />
-          </div>
-          <div>
-            <label htmlFor="guests" className="block text-sm font-medium text-white">
-              Number of Guests:
-            </label>
-            <input
-              type="text"
-              id="guests"
-              placeholder="Enter number"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
-            />
-          </div>
-          <div>
-            <label htmlFor="event" className="block text-sm font-medium text-white">
-              Type of Event:
-            </label>
-            <input
-              type="text"
-              id="event"
-              placeholder="Enter event type"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
-            />
-          </div> */}
           <div className="col-span-2">
             <label htmlFor="message" className="block text-sm font-medium text-white">
-              Message:
+              Query:
             </label>
             <textarea
-              id="message"
-              placeholder="Write your message here..."
+              name="Query"
+              placeholder="Write your query here..."
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               rows="4"
               required
