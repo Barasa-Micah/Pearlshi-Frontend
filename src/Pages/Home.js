@@ -25,56 +25,56 @@ const HomePage = () => {
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0036.jpg')} 
                             alt="" 
-                            className="w-full h-full "
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0030.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0052.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105139_IMG_0420.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105346_IMG_0428.jpg')} 
                             alt="" 
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                 </div>
