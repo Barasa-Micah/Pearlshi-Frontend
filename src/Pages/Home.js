@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 //Icons
-import { FaBirthdayCake, FaBalanceScaleRight } from "react-icons/fa";
+import { FaBirthdayCake } from "react-icons/fa";
 
 
 //Components
@@ -19,61 +19,61 @@ const HomePage = () => {
             <HeroCarousel />
 
             {/* About Section */}
-            <section className="w-full bg-[#EBE4FF] pb-4 pt-8 space-y-10">
+            <section className="w-full bg-[#EBE4FF] pb-4 pt-5 space-y-5">
                 <div data-aos="zoom-out-up" data-aos-duration="3000" className="w-[90%] md:w-[70%] mx-auto flex max-w-screen-xl">
                     <div className="w-[250px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0036.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0030.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0052.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105139_IMG_0420.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105346_IMG_0428.jpg')} 
-                            alt="" 
+                            alt="Pearlshi Events" 
                             className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>

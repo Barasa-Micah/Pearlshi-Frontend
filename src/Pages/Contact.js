@@ -12,13 +12,13 @@ function ContactPage() {
     <>
     <section className='bg-[#ffffff]'>
       <section className='w-full relative mt-[80px] lg:mt-[120px]'>
-        <div className='h-full lg:h-96'>
-          <img src={require('../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt='' className='object-cover w-full h-full' />
+        <div className='h-52 md:h-64 lg:h-96'>
+          <img src="https://images.unsplash.com/photo-1519654793190-2e8a4806f1f2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt='' className='object-cover w-full h-full' />
         </div>
         <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
           <div className='absolute bottom-[10%] md:bottom-[24%] left-[5%]'>
             <h1 className='text-white text-4xl md:text-6xl lg:text-7xl font-semibold text-left font-["Inter"]'>Contact Us</h1>
-            <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using </p>
+            <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>Transform your event into an unforgettable experience—contact us today for personalized catering and event planning that will leave your guests in awe!</p>
           </div>
         </div>
       </section>
@@ -26,18 +26,18 @@ function ContactPage() {
       <section className='w-[90%] mx-auto p-3 mt-[30px] font-["Inter"]'>
         <div className=' space-y-4'>
           <h4 className='text-[#00ADEF] text-lg font-["Inter"]'>Get In Touch</h4>
-          <h1 className='text-5xl '>Contact Us</h1>
+          <h1 className='text-3xl md:text-5xl '>Contact Us</h1>
           <p className='font-light font-md w-[90%]'>Do you need some help planning an event? Please fill in the form below.I look forward to receiving your enquiry and hearing more about your upcoming event!</p>
         </div>
-        <div className='md:flex md:flex-wrap lg:flex-nowrap justify-around gap-7 space-y-3 lg:space-x-[100px] mt-[100px] mb-[50px]'>
+        <div className='md:flex md:flex-wrap lg:flex-nowrap justify-around gap-7 space-y-3 lg:space-x-[50px] mt-[50px] md:mt-[100px] mb-[50px]'>
           <div className='flex gap-2'>
-            <span className='text-[#00ADEF] text-7xl'>
+            <span className='text-[#00ADEF] text-4xl md:text-7xl'>
               <RiCustomerServiceLine />
             </span>
             <div>
               <h1 className='text-xl'>Phone</h1>
               <a href='tel:0715615609'>
-                <p className='text-sm text-slate-600 mt-3 hover:text-[#00ADEF]'>0715615609</p>
+                <p className='text-sm text-slate-600 hover:text-[#00ADEF]'>0715615609</p>
               </a>
               <a href='tel:0759108174'>
                 <p className='text-sm text-slate-600 hover:text-[#00ADEF]'>0759108174</p>
@@ -45,22 +45,22 @@ function ContactPage() {
             </div>
           </div>
           <div className='flex gap-2'>
-            <span className='text-[#00ADEF] text-7xl'>
+            <span className='text-[#00ADEF] text-4xl md:text-7xl'>
               <CiLocationOn />
             </span>
             <div>
-              <h1 className='text-xl'>Location</h1>
-              <p className='mt-3 text-slate-600'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+              <h1 className='text-xl'>Address</h1>
+              <p className='text-slate-600'>P.O Box 11-00518 Nairobi, Kenya</p>
             </div>
           </div>
           <div className='flex gap-2'>
-            <span className='text-[#00ADEF] text-7xl'>
+            <span className='text-[#00ADEF] text-4xl md:text-7xl'>
               <MdOutlineEmail />
             </span>
             <div>
               <h1 className='text-xl'>E- Mail</h1>
               <a href='mailto:pearlcaterers0205@gmail.com'>
-                <p className='mt-3 text-slate-600 hover:text-[#00ADEF]'>pearlcaterers0205@gmail.com</p>
+                <p className='text-slate-600 hover:text-[#00ADEF]'>pearlcaterers0205@gmail.com</p>
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ function ContactPage() {
       {/* Image Section */}
       <div className="basis-[30%] h-[300px] md:h-screen bg-gray-200 flex justify-center  relative ">
         <img
-          src={require('../Assets/SlideShow/IMG-20240515-WA0052.jpg')} alt='' className="w-full h-full object-cover" />
+          src={require('../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.35_0c8c76e2.jpg')} alt='' className="w-full h-full object-cover" />
       </div>
 
       {/* Form Section */}

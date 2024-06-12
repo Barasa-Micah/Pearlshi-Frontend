@@ -21,8 +21,8 @@ const EventPlanning = () => {
                     <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.33_d67cb860.jpg')} alt='' className='object-cover w-full h-full' />
                 </div>
                 <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
-                    <div className='absolute bottom-[30%] md:bottom-[30%] left-[5%]'>
-                        <h1 className='text-white text-4xl md:text-6xl lg:text-7xl font-semibold text-left font-["Inter"] w-[70%]'>Event Planning & Event Management</h1>
+                    <div className='absolute bottom-[10%] md:bottom-[20%] left-[2%] md:left-[5%]'>
+                        <h1 className='text-white text-3xl md:text-6xl lg:text-7xl font-semibold text-left font-["Inter"] md:w-[70%]'>Event Planning & Event Management</h1>
                         <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>Embark on a journey of seamless sophistication with our expert event planning and management services, where every detail is meticulously crafted to transform your vision into an unforgettable reality</p>
                     </div>
                 </div>
@@ -60,16 +60,16 @@ const EventPlanning = () => {
                     </div>
                 </div>
                 <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px] '>
                         <img src={require('../../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px] '>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0033.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px] '>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0023.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px] '>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px] '>
                         <img src={require('../../Assets/SlideShow/20240518055737_IMG_0298.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -80,11 +80,11 @@ const EventPlanning = () => {
                     <h1 className='text-3xl font-semibold font-["Inter"]'>Event Planning & Event Management Services</h1>
                     <p className='font-["Inter"] text-md pt-5'>Our comprehensive event planning and event management service is designed to transform your vision into reality with impeccable attention to detail and creativity. From intimate gatherings to grand celebrations, our team of experienced event planners will collaborate closely with you to understand your unique preferences and requirements. We offer a full suite of services, including theme conceptualization, venue selection, vendor coordination, and timeline creation. Our goal is to ensure a seamless and stress-free planning process, allowing you to enjoy the anticipation and excitement of your event without any hassle. With our expertise, every aspect of your event will be meticulously planned and flawlessly executed, ensuring an unforgettable experience for you and your guests.</p>
                     <p className='font-["Inter"] text-md pt-5'>On the day of the event, our skilled event management team takes over to orchestrate every element with precision and professionalism. We oversee the setup, manage the schedule, coordinate with vendors, and handle any unexpected challenges that may arise, ensuring everything runs smoothly from start to finish. Our commitment to excellence means that you can relax and immerse yourself in the moment, knowing that our team is dedicated to delivering an exceptional event. Whether it’s a corporate function, a wedding, a milestone celebration, or any other special occasion, our event management service is tailored to provide you with a worry-free and memorable experience, reflecting the highest standards of quality and elegance.</p>
-                    <div className='pt-7 flex gap-2 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                    <div className='pt-7 flex flex-wrap gap-2 justify-center items-center'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]]'>
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0032.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

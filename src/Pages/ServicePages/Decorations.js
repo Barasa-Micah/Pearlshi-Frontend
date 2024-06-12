@@ -58,16 +58,16 @@ const Decorations = () => {
                     </div>
                 </div>
                 <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center md:space-y-0'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518094352_IMG_0373 (1).jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0024.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518093908_IMG_0360.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/20240518121639_IMG_0493.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -79,10 +79,10 @@ const Decorations = () => {
                     <p className='font-["Inter"] text-md pt-5'>Our premier decorations service transforms any venue into a stunning and memorable setting tailored to your unique vision. Whether it's a wedding, corporate event, birthday party, or any special occasion, our expert decorators work closely with you to design a captivating atmosphere that reflects your style and theme. We offer a comprehensive range of decor options, including elegant table settings, breathtaking floral arrangements, exquisite lighting, and bespoke installations. Our team’s meticulous attention to detail ensures that every element harmoniously blends to create an enchanting ambiance that leaves a lasting impression on your guests.</p>
                     <p className='font-["Inter"] text-md pt-5'>In addition to traditional decorations, we provide customized solutions to meet your specific needs and preferences. Our services include the creation of personalized centerpieces, themed backdrops, and stylish props, all designed to elevate your event’s aesthetic appeal. We also handle the logistics of setup and takedown, allowing you to enjoy your event without any stress. With a commitment to excellence and a passion for creativity, our decorations service aims to exceed your expectations and bring your vision to life, making your event truly unforgettable.</p>
                     <div className='pt-7 flex flex-wrap gap-2  md:space-y-0 justify-center items-center'>
-                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                        <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518105255_IMG_0427.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

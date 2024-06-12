@@ -58,10 +58,10 @@ const TentHiring = () => {
                     </div>
                 </div>
                 <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center md:space-y-0'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0040.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-28 at 09.32.09_514744c7.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -73,10 +73,10 @@ const TentHiring = () => {
                     <p className='font-["Inter"] text-md pt-5'>Our catering and event planning company proudly offers a comprehensive tents and chairs rental service to make your event both comfortable and stylish. We provide a wide range of tents, from elegant canopies and marquees to cozy and intimate setups, suitable for any occasion—from weddings and corporate events to private parties and outdoor gatherings. Each tent is meticulously maintained and can be customized with lighting, drapery, and flooring to perfectly match your event's theme and aesthetic. Our expert team handles the delivery, setup, and takedown, ensuring a seamless and stress-free experience for you.</p>
                     <p className='font-["Inter"] text-md pt-5'>In addition to our premium tent rentals, we offer a variety of chairs to complement your event's seating arrangements. Choose from a selection of classic banquet chairs, modern chiavari chairs, and plush lounge seating, all designed to provide comfort and enhance the visual appeal of your event. Our chairs are available in multiple styles and colors to fit your specific needs and preferences. With our tents and chairs for hire, you can create a memorable and inviting atmosphere that your guests will appreciate and enjoy. Let us help you bring your vision to life with our reliable and professional rental services.</p>
                     <div className='pt-7 flex flex-wrap gap-2 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0045.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

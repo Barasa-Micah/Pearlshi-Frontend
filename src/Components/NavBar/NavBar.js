@@ -24,7 +24,7 @@ const MenuItem = ({ label, children }) => {
         {children && (
           <ul 
             className={`pl-3 mt-1  space-y-1 transition-all duration-300 overflow-hidden ${
-              isOpen ? 'max-h-[270px]' : 'max-h-0'
+              isOpen ? 'max-h-[300px]' : 'max-h-0'
             }`}
           >
             {children}
@@ -127,7 +127,7 @@ const NavMd = () => {
                                 <NavLink to="/gallery" onClick={closemenu}><MenuItem label="Gallery" /></NavLink>
                                 <NavLink to="/connect" onClick={closemenu}><MenuItem label="Contact Us" /></NavLink>
                                 <div>
-                                    <Link to="/booking"><button className="bg-[#00ADEF]  text-white text-lg font-bold px-5 py-2 transition-colors duration-300 rounded-full">Book Now</button></Link>
+                                    <Link to="/booking"><button onClick={closemenu} className="bg-[#00ADEF]  text-white text-lg font-bold px-5 py-2 transition-colors duration-300 rounded-full">Book Now</button></Link>
                                 </div>
                             </ul>
                     </div>

@@ -58,10 +58,10 @@ const TableSetUp = () => {
             </div>
           </div>
                 <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0033.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -73,10 +73,10 @@ const TableSetUp = () => {
                     <p className='font-["Inter"] text-md pt-5'>Our Table Set Up service, offered by our expert catering and event planning team, ensures that every event radiates elegance and precision from the moment your guests arrive. We meticulously arrange each table to reflect your event's theme and aesthetic, utilizing premium linens, elegant tableware, and tasteful centerpieces. Whether you envision a classic, rustic, or modern design, our team collaborates with you to bring your vision to life. We handle every detail with care, from the placement of napkins and silverware to the arrangement of floral decorations and table settings, ensuring a cohesive and stunning presentation.</p>
                     <p className='font-["Inter"] text-md pt-5'>Our service goes beyond mere aesthetics; it is designed to enhance the overall experience of your event. We consider the flow and functionality of the space, ensuring that tables are set to promote conversation and comfort. Our team is adept at creating layouts that maximize venue space while maintaining a sophisticated ambiance. With our Table Set Up service, you can trust that your event will not only look beautiful but also provide a seamless and enjoyable experience for your guests, leaving a lasting impression of elegance and professionalism.</p>
                     <div className='pt-7 flex flex-wrap gap-2 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                           <img src={require('../../Assets/SlideShow/IMG-20240515-WA0034.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                           <img src={require('../../Assets/SlideShow/IMG-20240515-WA0032.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

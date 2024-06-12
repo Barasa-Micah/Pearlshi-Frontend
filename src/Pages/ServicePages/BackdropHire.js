@@ -20,8 +20,8 @@ const BackdropHiring = () => {
                 </div>
                 <div className='absolute top-0 bg-black bg-opacity-[40%] w-full h-full'>
                     <div className='absolute bottom-[10%] md:bottom-[15%] left-[5%]'>
-                        <h1 className='text-white text-4xl md:text-6xl lg:text-7xl font-semibold text-left font-["Inter"] w-[70%]'>Backdrop & Garlands For Hire</h1>
-                        <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>Elevate your event with our stunning Backdrops & Garlands for Hire service, transforming any space into a captivating oasis of elegance and charm. Let us turn your vision into a reality, creating unforgettable moments that leave a lasting impression on your guests.</p>
+                        <h1 className='text-white text-4xl md:text-6xl lg:text-7xl font-semibold text-left font-["Inter"] md:w-[70%]'>Backdrop & Garlands For Hire</h1>
+                        <p className='text-gray-200 text-sm md:text-md font-["Inter"] md:w-[70%]'>Elevate your event with our stunning Backdrops & Garlands for Hire service, transforming any space into a captivating oasis of elegance and charm.</p>
                     </div>
                 </div>
             </section>
@@ -57,11 +57,11 @@ const BackdropHiring = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:flex flex-wrap basis-[60%] gap-4 justify-center items-center space-y-2 md:space-y-0'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                <div className='flex flex-wrap basis-[60%] gap-4 justify-center items-center'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/IMG-20240515-WA0040.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-28 at 09.32.09_514744c7.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -72,11 +72,11 @@ const BackdropHiring = () => {
                     <h1 className='text-3xl font-semibold font-["Inter"]'>Backdrop & Garlands For Hire</h1>
                     <p className='font-["Inter"] text-md pt-5'>Our catering and event planning company proudly offers an exceptional service of backdrops and garlands for hire, designed to elevate the ambiance of any occasion. Our collection features a variety of stunning backdrops, ranging from elegant floral arrangements to modern geometric designs, suitable for weddings, corporate events, birthdays, and more. Each backdrop is meticulously crafted to provide a picture-perfect setting, ensuring your event is visually captivating and memorable. Complementing our backdrops, we offer a selection of garlands made from fresh, high-quality flowers and foliage, adding a touch of natural beauty and sophistication to any event décor.</p>
                     <p className='font-["Inter"] text-md pt-5'>Our backdrops and garlands are not only aesthetically pleasing but also customizable to match the specific theme and color scheme of your event. Our team of experienced designers works closely with clients to understand their vision and create bespoke arrangements that enhance the overall atmosphere. Whether you need a dramatic backdrop for a wedding ceremony or a whimsical garland for a birthday celebration, our service is tailored to meet your unique needs. With our commitment to quality and attention to detail, we aim to transform ordinary spaces into extraordinary experiences, leaving a lasting impression on your guests.</p>
-                    <div className='pt-7 md:flex gap-2 space-y-2 md:space-y-0 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                    <div className='pt-7 flex flex-wrap gap-2 justify-center items-center'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/IMG-20240515-WA0045.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

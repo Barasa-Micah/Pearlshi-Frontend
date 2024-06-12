@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Slider from 'react-slick';
+
+//Images
 import image1 from '../../Assets/SlideShow/20240518104846_IMG_0418.jpg';
 import image2 from '../../Assets/SlideShow/20240518103713_IMG_0390.jpg';
 import image3 from '../../Assets/SlideShow/20240518094120_IMG_0369.jpg';
@@ -15,7 +18,7 @@ import image13 from '../../Assets/SlideShow/20240518091129_IMG_0335.jpg';
 import image14 from '../../Assets/SlideShow/20240518123510_IMG_0501.jpg';
 
 
-import Slider from 'react-slick';
+//Slider Styling
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -31,6 +34,10 @@ const GalleryCarousel = () => {
     slidesToScroll: 1,
     arrows: true,
     fade: true,
+    autoplay: true,
+    infinite: true,
+    speed: 2000,
+    pauseOnHover: false,
     asNavFor: thumbSlider,
   };
 

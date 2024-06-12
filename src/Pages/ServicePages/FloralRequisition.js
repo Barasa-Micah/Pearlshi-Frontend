@@ -58,10 +58,10 @@ const FloralRequisition = () => {
                     </div>
                 </div>
                 <div className='flex flex-wrap basis-[60%] gap-2 justify-center items-center'>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/Signup.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[350px] h-[250px]'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                         <img src={require('../../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.35_0c8c76e2.jpg')} alt='' className='w-full h-full object-cover' />
                     </div>
                 </div>
@@ -72,11 +72,11 @@ const FloralRequisition = () => {
                     <h1 className='text-3xl font-semibold font-["Inter"]'>Floral Requisition</h1>
                     <p className='font-["Inter"] text-md pt-5'>Floral Requisition is a premium service offered by our catering and event planning company, designed to infuse elegance and beauty into every occasion. This service provides custom floral arrangements tailored to the specific needs and themes of your event, whether it's a wedding, corporate gathering, birthday celebration, or any other special occasion. Our expert florists work closely with clients to understand their vision, preferences, and the overall aesthetic of the event. From bouquets and centerpieces to intricate floral installations, we ensure that each arrangement enhances the ambiance and leaves a lasting impression on your guests.</p>
                     <p className='font-["Inter"] text-md pt-5'>Our Floral Requisition service includes a comprehensive consultation process where clients can explore various floral styles, colors, and seasonal blooms to create a cohesive and captivating floral design. We source the freshest flowers from reputable suppliers to guarantee high-quality and vibrant arrangements. Additionally, our service includes delivery, setup, and on-site adjustments to ensure the floral decor is perfectly positioned and maintained throughout the event. By choosing our Floral Requisition service, clients benefit from our meticulous attention to detail, creative expertise, and commitment to exceeding expectations, making every event not only memorable but visually stunning.</p>
-                    <div className='pt-7 flex gap-2 justify-center items-center'>
-                        <div className='w-[350px] h-[250px]'>
+                    <div className='pt-7 flex flex-wrap gap-2 justify-center items-center'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518094345_IMG_0372.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
-                        <div className='w-[350px] h-[250px]'>
+                        <div className='w-[90%] h-[200px] md:w-[350px] md:h-[250px]'>
                             <img src={require('../../Assets/SlideShow/20240518121653_IMG_0495.jpg')} alt='' className='w-full h-full object-cover' />
                         </div>
                     </div>

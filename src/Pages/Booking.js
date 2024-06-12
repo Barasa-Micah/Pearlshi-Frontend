@@ -17,43 +17,44 @@ const Booking = () => {
       <Helmet>
         <title>Booking | Pearlshi Cateres & Event Planners</title>
       </Helmet>
-      <body className='bg-[#F5F2FB] mt-[120px] p-4'>
-        <section className='bg-[#135A70] w-[95%] mx-auto mt-[100px] md:flex justify-center items-center gap-3 p-4 '>
+      <body className='bg-[#F5F2FB] mt-[120px]'>
+        <section
+          className="bg-center relative bg-cover bg-no-repeat bg-fixed w-full lg:h-[350px]"
+          style={{backgroundImage: "url(https://images.unsplash.com/photo-1522413452208-996ff3f3e740?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}
+        >
+          <div className='absolute top-0 w-full h-full bg-[#00ADEF] bg-opacity-[50%] font-Mons'>
+            <div className='absolute bottom-[25%] left-[4%]'>
+              <h1 className='text-7xl font-bold text-white'>Book Now</h1>
+              <p className='text-gray-200 text-sm w-[60%]'>Transform your vision into a spectacular reality with our bespoke catering and event planning services, where every detail is crafted to perfection, ensuring your event is as unique and memorable as you are</p>
+            </div>
+          </div>
+        </section>
+        <section className='bg-[#135A70] w-[95%] mx-auto mt-[100px] md:flex justify-center items-center gap-3 p-4 mb-10'>
           <div className='text-white basis-[40%]'>
             <h1 className='font-["Inter"] text-3xl'>Book With Us</h1>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,.</p>
-            {/* <div className='mt-[100px]'>
-              <h1 className='text-white text-lg font-["Inter"] my-3'>Our Customers Are Loving Us...</h1>
-              <div className='bg-white text-black p-4'>
-                <p className='text-center text-sm font-["Inter"]'>"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div className='w-[90px] h-[90px] mx-auto mt-4'>
-                  <img src={require('../Assets/Executive/HeadChef1.jpg')} alt='' className='w-full h-full rounded-full' />
-                </div>
-                <h1 className='text-center text-header-500 text-lg'>John Muturi</h1>
-              </div>
-            </div> */}
+            <p className='text-emerald-200'>Elevate your next celebration to unforgettable heights with our premier catering and event planning services, where exquisite cuisine and impeccable attention to detail come together to create magical moments that will leave your guests in awe. Book your event with us today and let’s turn your vision into a spectacular reality!</p>
           </div>
-
-
+            
+          {/* Book Now Form */}
           <div className='basis-[55%] bg-white p-3'>
-            <form action="https://api.web3forms.com/submit" method="POST" className=''>
-            <input type="hidden" name="access_key" value="6152af76-4346-403d-a7b3-fdcfceaf5455"></input>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="6152af76-4346-403d-a7b3-fdcfceaf5455"></input>
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
                   <label>First Name</label>
-                  <input type='text' name='booker_fname' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='text' name='booker_fname' placeholder='Enter First Name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Last Name</label>
-                  <input type='text' name='booker_lname' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='text' name='booker_lname' placeholder='Enter Last Name' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Phone Number</label>
-                  <input type='text' name='booker_number' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='text' name='booker_number' placeholder='Phone Number' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Email Address</label>
-                  <input type='email' name='booker_email' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
+                  <input type='email' name='booker_email' placeholder='Enter Email Address' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
               </div>
               <label id='package'>Choose a Package</label>
@@ -83,13 +84,14 @@ const Booking = () => {
                   <label>Location of Event</label>
                   <input type='text' name='location' className='block bg-[#F5F2FB] py-2 px-2 w-[300px]'/>
                 </div>
-                <label>Description</label>
-                <textarea type="text" name='description' rows="6" className='bg-[#F5F2FB] block w-[400px]' required/>
+                <div className='text-md font-["Inter"]'>
+                  <label>Description</label>
+                  <textarea type="text" name='description' placeholder='Describe Your Event...' rows="6" className='bg-[#F5F2FB] p-2 block w-[400px]' required/>
+                </div>
               </div>
               <input type='submit' value="Book Now" className='w-[70%] flex flex-col items-center justify-center my-5 py-3 bg-[#135A70] text-white text-xl  font-["Inter"] hover:cursor-pointer' />
             </form>
           </div>
-
         </section>
       </body>
     </>

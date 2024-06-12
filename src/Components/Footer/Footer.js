@@ -95,7 +95,7 @@ const Footer = () => {
         <span className='text-xl my-auto'>
           <FaCopyright />
         </span>
-        <h4>Pearlshi Caterers & Event Planner {year}. All  rights Reserved.</h4>
+        <h4>Pearlshi Caterers & Event Planners {year}. All  rights Reserved.</h4>
       </section>
     </>
   )
