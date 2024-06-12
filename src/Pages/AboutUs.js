@@ -15,7 +15,7 @@ const AboutUs = () => {
       </Helmet>
       <body className='bg-[#F5F2FB] w-full mt-[80px] md:mt-[100px] lg:mt-[125px]'>
         <div className="w-full h-56 md:h-96 relative">
-          <img src={require('../Assets/SlideShow/20240518133928_IMG_0517.jpg')} alt="" className='w-full h-full object-cover' />
+          <img src={require('../Assets/SlideShow/20240518134041_IMG_0520.jpg')} alt="" className='w-full h-full object-cover' />
           <div className='absolute top-[30%] left-[30%] md:top-[30%] md:left-[30%] lg:left-[40%] lg:top-[40%] flex items-center'>
             <hr className=' flex-grow'/>
             <h1 className='text-4xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
