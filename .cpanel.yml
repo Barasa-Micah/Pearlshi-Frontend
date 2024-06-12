@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/pearlshi/public_html/
+    - npm install
+    - npm run build
+    - /bin/cp -R build/* $DEPLOYPATH
