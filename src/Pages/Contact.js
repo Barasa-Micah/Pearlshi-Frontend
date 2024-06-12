@@ -68,9 +68,9 @@ function ContactPage() {
       </section>
 
       
-      <div className="md:flex items-start  w-[90%] mx-auto bg-[#135a70] mb-10">
+      <div className="lg:flex items-start  w-[90%] mx-auto bg-[#135a70] mb-10">
       {/* Image Section */}
-      <div className="basis-[30%] h-[300px] md:h-screen bg-gray-200 flex justify-center  relative ">
+      <div className="basis-[30%] h-[200px] md:h-[300px] lg:h-screen bg-gray-200 flex justify-center relative">
         <img
           src={require('../Assets/SlideShow/WhatsApp Image 2024-05-30 at 12.24.35_0c8c76e2.jpg')} alt='' className="w-full h-full object-cover" />
       </div>
