@@ -79,10 +79,10 @@ function ContactPage() {
       <div className="w-full basis-[50%] p-6">
         <h1 className="font-semi bold text-3xl mb-4 text-white ">Get The Party Started</h1>
         <p className='text-white'>As the premier event planning company in the area. Each event and client is unique and we believe our services should be as well.</p>
-        <form action="https://api.web3forms.com/submit" method="POST" className="grid grid-cols-2 gap-4">
+        <form action="https://api.web3forms.com/submit" method="POST" className="md:grid grid-cols-2 gap-4 space-y-3 md:space-y-0">
           <input type="hidden" name="access_key" value="6152af76-4346-403d-a7b3-fdcfceaf5455"></input>
           <div>
-            <label htmlFor="firstName" className="block text-sm font-medium text-white">
+            <label for="firstName" className="block text-sm font-medium text-white">
               First Name:
             </label>
             <input
@@ -91,10 +91,10 @@ function ContactPage() {
               placeholder="Enter first name"
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               required
-            />
+            /><br />
           </div>
           <div>
-            <label htmlFor="lastName" className="block text-sm font-medium text-white">
+            <label for="lastName" className="block text-sm font-medium text-white">
               Last Name:
             </label>
             <input
