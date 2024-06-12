@@ -15,10 +15,10 @@ const AboutUs = () => {
       </Helmet>
       <body className='bg-[#F5F2FB] w-full mt-[80px] md:mt-[100px] lg:mt-[125px]'>
         <div className="w-full h-56 md:h-96 relative">
-          <img src={require('../Assets/SlideShow/20240518133928_IMG_0517.jpg')} alt="" className='w-full h-full object-cover' />
-          <div className='absolute top-[50%] left-[40%]  flex items-center'>
+          <img src={require('../Assets/SlideShow/20240518134041_IMG_0520.jpg')} alt="" className='w-full h-full object-cover' />
+          <div className='absolute top-[30%] left-[30%] md:top-[30%] md:left-[30%] lg:left-[40%] lg:top-[40%] flex items-center'>
             <hr className=' flex-grow'/>
-            <h1 className='text-3xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
+            <h1 className='text-4xl md:text-7xl text-white text-center font-semibold'>About Us</h1>
             <hr className='flex-grow'/>
           </div>
         </div>
@@ -159,10 +159,118 @@ const AboutUs = () => {
             </div>
             <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
               <div className='w-[150px] h-[150px] mx-auto'>
-                <img src={require('../Assets/Executive/Marketing Manager.jpg')} alt='' className='w-full h-full rounded-full' />
+                <img src={require('../Assets/Executive/Support Staff/Antony Michira.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
-              <h1 className='text-center text-xl font-bold'>Faith Wanjiru</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Marketing Manager</p>
+              <h1 className='text-center text-xl font-bold'>Antony Michira</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Mary Oketch.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Mary Oketch</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Pauline.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Pauline</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Anastacia Kavuwa.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Anastacia Kavuwa</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Ambrose Mutua.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Ambrose Mutua</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Beatrice Oketch.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Beatrice Oketch</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/John Lekodonyo.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>John Lekodonyo</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Rose Shikhunzi.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Rose Shikhunzi</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Meshach Orenge.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Meshack Orenge</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
+                <a href="">
+                  <FaLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className='bg-white p-3 h-auto w-[400px] md:w-[70%] lg:w-[400px] hover:shadow-2xl hover:-translate-y-7 transition-all duration-700'>
+              <div className='w-[150px] h-[150px] mx-auto'>
+                <img src={require('../Assets/Executive/Support Staff/Caroline Mutheu.jpg')} alt='' className='w-full h-full rounded-full' />
+              </div>
+              <h1 className='text-center text-xl font-bold'>Caroline Mutheu</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 //Icons
-import { FaBirthdayCake, FaBalanceScaleRight } from "react-icons/fa";
+import { FaBirthdayCake } from "react-icons/fa";
 
 
 //Components
@@ -19,62 +19,62 @@ const HomePage = () => {
             <HeroCarousel />
 
             {/* About Section */}
-            <section className="w-full bg-[#EBE4FF] pb-4 pt-8 space-y-10">
-                <div data-aos="zoom-out-up" data-aos-duration="3000" className="w-[90%] md:w-[70%] mx-auto flex">
+            <section className="w-full bg-[#EBE4FF] pb-4 pt-5 space-y-5">
+                <div data-aos="zoom-out-up" data-aos-duration="3000" className="w-[90%] md:w-[70%] mx-auto flex max-w-screen-xl">
                     <div className="w-[250px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0036.jpg')} 
-                            alt="" 
-                            className="w-full h-full "
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0030.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px] hidden md:block">
                         <img 
                             src={require('../Assets/SlideShow/IMG-20240515-WA0052.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105139_IMG_0420.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                     <div className="w-[220px] h-[120px] md:w-[120px] md:h-[150px] lg:h-[200px]">
                         <img 
                             src={require('../Assets/SlideShow/20240518105346_IMG_0428.jpg')} 
-                            alt="" 
-                            className="w-full h-full"
+                            alt="Pearlshi Events" 
+                            className="w-full h-full object-cover overflow-hidden"
                         />
                     </div>
                 </div>
@@ -85,9 +85,9 @@ const HomePage = () => {
             </section>
 
             {/* What we do */}
-            <section className="bg-black w-full p-4 pb-10">
+            <section className="bg-black w-full p-4 pb-10 ">
                 <h1 className="text-center text-white text-xl md:text-3xl lg:text-4xl font-['Roboto'] my-10">WHAT WE DO</h1>
-                <div className="mx-auto w-[95%] lg:w-[65%] flex flex-wrap gap-5 mt-5 justify-center items-center">
+                <div className="mx-auto w-[95%] lg:w-[65%] flex flex-wrap gap-5 mt-5 justify-center items-center max-w-screen-xl">
                     <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="" data-aos-offset="100" className="relative group hover:cursor-pointer shadow-black shadow-2xl">
                         <Link to="/decorations">
                             <div className="h-[400px] w-[270px]">
@@ -161,7 +161,7 @@ const HomePage = () => {
             {/* Why Choose Us? */}
             <section className="font-['Inter'] w-full p-5">
                 <h1 className="text-center py-5 text-2xl md:text-3xl font-bold font-['Inter'] text-header-500">Why Choose Us?</h1>
-                <div className="md:flex flex-wrap gap-8 w-[95%] mx-auto">
+                <div className="md:flex flex-wrap gap-8 w-[95%] mx-auto max-w-screen-xl">
                     <div data-aos="fade-right" data-aos-duration="2000" className="p-2 shadow-lg rounded-md flex space-x-4 md:w-[45%] mb-3 hover:cursor-pointer hover:scale-110 transition-all duration-300">
                         <div className="text-4xl md:text-5xl text-wedding-500 border rounded-full my-auto p-2">
                             <ion-icon name="document-text-sharp"></ion-icon>
@@ -214,10 +214,10 @@ const HomePage = () => {
             <section className="bg-[#F5F2FB] p-7">
                 <h4 className="text-[#00ADEF] text-center mt-5 font-Home">COMPANY</h4>
                 <h1 className="text-center text-4xl mb-5 font-Home">Core Values</h1>
-                <div className="bg-white w-[95%] md:w-[87%] mx-auto rounded-xl md:flex justify-center items-center gap-2">
+                <div className="bg-white w-[99%] md:w-[87%] mx-auto rounded-xl md:flex justify-center items-center gap-2">
                     <div className="basis-[40%] p-3">
                         <h1 className="text-3xl md:text-5xl font-semibold font-['Poppins'] text-center md:text-left">Our Promise Behind Every Event</h1>
-                        <Link to="/connect"><button className='bg-[#00ADEF] mt-4     text-white font-semibold text-2xl px-5 py-2 lg:rounded-tr-3xl lg:rounded-bl-3xl w-[300px] lg:w-auto mb-3 lg:mb-0'>Reach Out</button></Link>
+                        <Link to="/connect" className="flex flex-col items-start"><button className='bg-[#00ADEF] mt-4 text-white font-semibold text-2xl px-5 py-2 rounded-tr-3xl rounded-bl-3xl lg:w-auto mb-3 lg:mb-0'>Reach Out</button></Link>
                     </div>
                     <div className="basis-[50%] space-y-3 p-2">
                         <div className="flex gap-2">

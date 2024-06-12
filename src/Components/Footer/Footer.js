@@ -50,7 +50,7 @@ const Footer = () => {
             <span className='text-3xl text-[#00ADEF]'>
               <FaLocationDot />
             </span>
-            <p className='text-["Inter"]'>P.O Box 4441-40103 Miwani road Eufrance Events Offices Eufrance Events Offices</p>
+            <p className='text-["Inter"]'>P.O Box 11-00518 Nairobi, Kenya</p>
           </div>
           <div className='flex space-x-4 pt-2'>
             <span className='text-3xl text-[#00ADEF] my-auto'>
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='w-[90px] h-[90px]  bottom-[1%] right-[0.5%] fixed'>
-          <a href='https://wa.me/+254715615609' target='_blank'>
+          <a href='https://wa.me/+254759108174' target='_blank'>
             <img src={require('../../Assets/whatsapp logo.png')} alt='' className='w-full h-full rounded-full' />
           </a>
         </div>
@@ -95,7 +95,7 @@ const Footer = () => {
         <span className='text-xl my-auto'>
           <FaCopyright />
         </span>
-        <h4>Pearlshi Caterers & Event Planner {year}. All  rights Reserved.</h4>
+        <h4>Pearlshi Caterers & Event Planners {year}. All  rights Reserved.</h4>
       </section>
     </>
   )
