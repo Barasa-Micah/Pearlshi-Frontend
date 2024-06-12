@@ -81,7 +81,7 @@ const TentHiring = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white shadow-2xl basis-[30%] p-4 space-y-5 h-[400px] w-[90%] mx-auto lg:w-auto'>
+                <div className='bg-white shadow-2xl basis-[30%] p-4 space-y-5 h-[430px] w-[90%] mx-auto lg:w-auto'>
                     <h1 className='text-3xl text-center text-[#00ADEF] font-semibold'>Book With Us</h1>
                     <p className='text-md font-["Inter"]'>Discover the ultimate event experience with us! At Pearlshi Caterers & Event Planners, we transform your vision into reality, creating unforgettable moments tailored just for you. Book your next event with us and let’s make it extraordinary together. Your dream event starts here!</p>
                     <div className='flex flex-col items-center space-y-2'>

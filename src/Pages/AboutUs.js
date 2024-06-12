@@ -26,7 +26,7 @@ const AboutUs = () => {
         {/* Welcoming Section */}
         <section>
           <div className='py-10'>
-            <h3 className='text-[#C61313] text-center text-lg font-semibold'>WELCOME TO</h3>
+            <h3 className='text-[#00ADEF] text-center text-lg font-semibold'>WELCOME TO</h3>
             <h1 className='text-center pt-3 text-2xl md:text-4xl font-["Inter"]'>PEARLSHI CATERERS & EVENT PLANNERS</h1>
           </div>
           <div className='lg:w-[90%] mx-auto flex justify-center'>
@@ -162,7 +162,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Antony Michira.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Antony Michira</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -174,7 +174,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Mary Oketch.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Mary Oketch</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -186,7 +186,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Pauline.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Pauline</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -198,7 +198,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Anastacia Kavuwa.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Anastacia Kavuwa</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -210,7 +210,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Ambrose Mutua.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Ambrose Mutua</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -222,7 +222,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Beatrice Oketch.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Beatrice Oketch</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -234,7 +234,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/John Lekodonyo.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>John Lekodonyo</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -246,7 +246,7 @@ const AboutUs = () => {
                 <img src={require('../Assets/Executive/Support Staff/Rose Shikhunzi.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
               <h1 className='text-center text-xl font-bold'>Rose Shikhunzi</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -257,8 +257,8 @@ const AboutUs = () => {
               <div className='w-[150px] h-[150px] mx-auto'>
                 <img src={require('../Assets/Executive/Support Staff/Meshach Orenge.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
-              <h1 className='text-center text-xl font-bold'>Meshack Orenge</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <h1 className='text-center text-xl font-bold'>Caroline Mutheu</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />
@@ -269,8 +269,8 @@ const AboutUs = () => {
               <div className='w-[150px] h-[150px] mx-auto'>
                 <img src={require('../Assets/Executive/Support Staff/Caroline Mutheu.jpg')} alt='' className='w-full h-full rounded-full' />
               </div>
-              <h1 className='text-center text-xl font-bold'>Caroline Mutheu</h1>
-              <p className='text-[#00ADEF] text-center text-sm pb-3'>Support Staff</p>
+              <h1 className='text-center text-xl font-bold'>Mary Mumbi</h1>
+              <p className='text-[#00ADEF] text-center text-sm pb-3'>Staff</p>
               <span className="text-3xl align-middle my-auto text-[#00ADEF] hover:cursor-pointer rounded-full items-center justify-center flex">
                 <a href="">
                   <FaLinkedin />

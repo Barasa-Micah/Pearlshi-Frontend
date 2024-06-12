@@ -32,7 +32,7 @@ const GalleryCarousel = () => {
   const mainSettings = {
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     fade: true,
     autoplay: true,
     infinite: true,
@@ -51,7 +51,7 @@ const GalleryCarousel = () => {
   };
 
   return (
-    <div className="flex justify-center items-center md:w-[90%] w-[98%] mx-auto  bg-black p-2 md:p-5 gap-4 md:gap-5">
+    <div className="flex justify-center items-center lg:w-[90%] md:w-[95%] w-[98%] mx-auto bg-black p-2 md:p-5 gap-2 md:gap-5">
       <div className="w-[20%] h-[300px] md:h-[500px] lg:h-screen overflow-hidden">
         <Slider
           {...thumbSettings}
@@ -71,7 +71,7 @@ const GalleryCarousel = () => {
           ref={(slider) => setMainSlider(slider)}
         >
           {images.map((image, index) => (
-            <div key={index} className='w-full lg:w-[90%] h-[200px] md:h-[400px] lg:h-[500px]'>
+            <div key={index} className='w-[50px]  h-[200px] md:h-[370px] lg:w-[90%] lg:h-[500px]'>
               <img src={image} alt={image.alt} className="w-full h-full object-cover" />
             </div>
           ))}
