@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 //Icons
 import { FaBirthdayCake } from "react-icons/fa";
+import { IoChevronForward } from "react-icons/io5";
 
 
 //Components
@@ -91,11 +92,17 @@ const HomePage = () => {
                     <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="" data-aos-offset="100" className="relative group hover:cursor-pointer shadow-black shadow-2xl">
                         <Link to="/decorations">
                             <div className="h-[400px] w-[270px]">
-                                <img src={require('../Assets/SlideShow/20240518091902_IMG_0340.jpg')} alt="" className="w-full h-full object-cover" /> 
+                                <img src={require('../Assets/SlideShow/20240518121632_IMG_0492.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
-                            <div className="absolute text-white bg-black  bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
+                            <div className="absolute font-Open text-white bg-black  bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="lg:hidden group-hover:block text-center pt-4 text-4xl font-semibold font-About">Decorations</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3">Our premier decorations service transforms any event into a stunning and memorable occasion with personalized decor, meticulous attention to detail, and comprehensive setup and takedown, ensuring your vision comes to life seamlessly.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
@@ -106,29 +113,48 @@ const HomePage = () => {
                             </div>
                             <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Table Set Up</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Our expert Table Set Up service ensures your event radiates elegance and precision, with meticulously arranged tables that reflect your theme and enhance guest experience, combining premium aesthetics with functional sophistication.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200" data-aos-offset="100" className="relative group hover:cursor-pointer shadow-black shadow-2xl">
                         <Link to="floralRequisition">
                             <div className="h-[400px] w-[270px]">
-                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0025.jpg')} alt="" className="w-full h-full object-cover" /> 
+                                <img src={require('../Assets/SlideShow/floral.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
                             <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Floral Requisition</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Experience the elegance and beauty of custom floral arrangements with our Floral Requisition service, designed to enhance any occasion with meticulously crafted blooms, personalized consultation, and impeccable on-site setup.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700" data-aos-offset="100" className="relative group hover:cursor-pointer shadow-black shadow-2xl">
                         <Link to="officeDelivery">
                             <div className="h-[400px] w-[270px]">
-                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} alt="" className="w-full h-full object-cover" /> 
+                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0051.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
                             <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Office Delivery</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">
+                                Enhance your workplace with our gourmet Office Delivery service, offering diverse, fresh meals and customizable packages, complete with setup and cleanup, to ensure a seamless, nutritious, and delightful dining experience for your team.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
@@ -139,18 +165,31 @@ const HomePage = () => {
                             </div>
                             <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Tents & Chair Hiring</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">
+                                Enhance your event with our comprehensive tents and chairs rental service, offering elegant and customizable setups with expert delivery, setup, and takedown for a seamless and stylish experience.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="900" data-aos-offset="100" className="relative group hover:cursor-pointer shadow-black shadow-2xl">
                         <Link to="eventPlanning">
                             <div className="h-[400px] w-[270px]">
-                                <img src={require('../Assets/SlideShow/20240518094352_IMG_0373 (2).jpg')} alt="" className="w-full h-full object-cover" /> 
+                                <img src={require('../Assets/SlideShow/IMG-20240515-WA0029.jpg')} alt="" className="w-full h-full object-cover" /> 
                             </div>
                             <div className="absolute text-white bg-black bg-opacity-75 w-full h-full lg:h-0 group-hover:h-full origin-bottom bottom-0 transition-all duration-1000">
                                 <h1 className="text-white lg:hidden group-hover:block pt-4 text-center text-4xl font-semibold font-About">Event Planning & Management</h1>
-                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="lg:hidden group-hover:block text-center mt-10 p-3 font-['Inter'] font-light">Our catering and event planning company offers a wide range of customizable tents and chairs, ensuring your event is both comfortable and stylish, with seamless delivery, setup, and takedown by our expert team.</p>
+                                <div className="lg:hidden group-hover:block absolute bottom-[10%] left-[30%] text-gray-200">
+                                    <h4 className="inline-flex underline underline-offset-4 text-center ">Learn More</h4>
+                                    <span className="inline-flex py-auto text-md">
+                                        <IoChevronForward />
+                                    </span>
+                                </div>
                             </div>
                         </Link>
                     </div>
