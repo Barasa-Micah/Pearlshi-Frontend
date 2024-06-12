@@ -42,19 +42,19 @@ const Booking = () => {
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
                   <label>First Name</label>
-                  <input type='text' name='booker_fname' placeholder='Enter First Name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='text' name='booker_fname' placeholder='Enter First Name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Last Name</label>
-                  <input type='text' name='booker_lname' placeholder='Enter Last Name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='text' name='booker_lname' placeholder='Enter Last Name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Phone Number</label>
-                  <input type='text' name='booker_number' placeholder='Phone Number' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='text' name='booker_number' placeholder='Phone Number' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Email Address</label>
-                  <input type='email' name='booker_email' placeholder='Enter Email Address' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='email' name='booker_email' placeholder='Enter Email Address' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
               </div>
               <label id='package'>Choose a Package</label>
@@ -66,23 +66,23 @@ const Booking = () => {
               <div className='flex flex-wrap gap-5'>
                 <div className='text-md font-["Inter"]'>
                   <label>Type of Event</label>
-                  <input type='text' name='event_name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='text' name='event_name' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Number of Guests</label>
-                  <input type='number' name='guests' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='number' name='guests' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Date of Event</label>
-                  <input type='date' name='event_date' min={getTodayDate()} value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='date' name='event_date' min={getTodayDate()} value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Time of Event</label>
-                  <input type='time' name='event_time' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='time' name='event_time' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Location of Event</label>
-                  <input type='text' name='location' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]'/>
+                  <input type='text' name='location' className='block bg-[#F5F2FB] py-2 px-2 w-full md:w-[300px]' required/>
                 </div>
                 <div className='text-md font-["Inter"]'>
                   <label>Description</label>
