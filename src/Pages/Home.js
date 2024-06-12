@@ -198,9 +198,9 @@ const HomePage = () => {
             </section>
 
             {/* Why Choose Us? */}
-            <section className="font-['Inter'] w-full p-5">
+            <section className="font-['Inter'] w-full p-4 overflow-hidden">
                 <h1 className="text-center py-5 text-2xl md:text-3xl font-bold font-['Inter'] text-header-500">Why Choose Us?</h1>
-                <div className="md:flex flex-wrap gap-8 w-[95%] mx-auto max-w-screen-xl">
+                <div className="flex flex-wrap gap-4 w-[95%] mx-auto">
                     <div data-aos="fade-right" data-aos-duration="2000" className="p-2 shadow-lg rounded-md flex space-x-4 md:w-[45%] mb-3 hover:cursor-pointer hover:scale-110 transition-all duration-300">
                         <div className="text-4xl md:text-5xl text-wedding-500 border rounded-full my-auto p-2">
                             <ion-icon name="document-text-sharp"></ion-icon>
