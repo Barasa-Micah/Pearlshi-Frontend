@@ -42,7 +42,7 @@ const AboutUs = () => {
         {/* Who We are Section */}
         <section id='WhoWeAre' className='bg-white rounded-lg w-[95%] lg:w-[80%] mx-auto p-4 mt-10 relative shadow-2xl'>
           <div className='md:flex justify-evenly space-x-2 '>
-            <div className='w-[99%] h-[300px] mb-2 mx-auto md:w-[400px] md:h-[350px]'>
+            <div className='w-[99%] h-[230px] mb-2 mx-auto md:w-[400px] md:h-[350px]'>
               <img src={require('../Assets/SlideShow/pearlshiTableSetUp.jpg')} alt="" className='w-full h-full' />
             </div>
             <div className='basis-[50%] leading-tight pb-10'>
@@ -70,7 +70,7 @@ const AboutUs = () => {
               <div className='basis-[40%]'>
                 <p className='text-lg'>Our mission is to provide exquisite cuisine, personalized service, and meticulous attention to detail. We strive to exceed our clients' expectations by transforming their ideas into memorable culinary experiences, ensuring every event is as unique and special as the people we serve.</p>
               </div>
-              <div className='w-[99%] h-[300px] mt-2 mx-auto md:w-[400px] md:h-[350px]'>
+              <div className='w-[99%] h-[230px] mt-2 mx-auto md:w-[400px] md:h-[350px]'>
                 <img src={require('../Assets/SlideShow/20240518110314_IMG_0443.jpg')} alt="" className='w-full h-full object-cover' />
               </div>
             </div>
@@ -85,7 +85,7 @@ const AboutUs = () => {
               <div className='basis-[40%]'>
                 <p className='text-lg'>Our mission is to provide exquisite cuisine, personalized service, and meticulous attention to detail. We strive to exceed our clients' expectations by transforming their ideas into memorable culinary experiences, ensuring every event is as unique and special as the people we serve.</p>
               </div>
-              <div className='w-[99%] h-[300px] mt-2 mx-auto md:w-[400px] md:h-[350px]'>
+              <div className='w-[99%] h-[230px] mt-2 mx-auto md:w-[400px] md:h-[350px]'>
                 <img src={require('../Assets/SlideShow/20240518105407_IMG_0430.jpg')} alt="" className='w-full h-full object-cover' />
               </div>
             </div>

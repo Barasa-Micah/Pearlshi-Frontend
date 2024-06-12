@@ -79,7 +79,6 @@ const Footer = () => {
           <div>
             <ul className='text-md animate-pulse'>
               <li className='text-lg'><Link to="/aboutUs">About Us</Link></li>
-              <li className='text-lg'><Link to="">Services</Link></li>
               <li className='text-lg'><Link to="/booking">Book Now</Link></li>
               <li className='text-lg'><Link to="/connect">Contact Us</Link></li>
             </ul>
